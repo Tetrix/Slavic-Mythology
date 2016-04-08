@@ -38,7 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'home',
-]
+    'registration',
+    # 'django.contrib.sites',
+    'stories',
+    ]
 
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
@@ -128,3 +131,10 @@ STATIC_URL = '/static/'
 
 MEDIA_ROOT='/home/tetrix/Documents/django/slavic_mythology/home/media'
 MEDIA_URL='/media/'
+
+
+REGISTRATION_OPEN = True  
+ACCOUNT_ACTIVATION_DAYS = 7   
+REGISTRATION_AUTO_LOGIN = True 
+LOGIN_REDIRECT_URL = '/'
+SITE_ID=1

@@ -3,9 +3,11 @@
 
 {% block content %}
 	{% for god in object_list %}
-		<center><h3>{{ god.name }}</a></h3><br>
-				<img src="{{ god.god_image.url }}" />{{ god.god_image }}
-			<h4>{{ god.description }}</h4>
-		</center>
+		<div>
+			<center><h3>{{ god.name }}</a></h3><br>
+				<img src="{{ god.god_image.url }}" />
+				<h4>{{ god.description }}</h4>
+			</center>
+		</div>
 	{% endfor %}
 {% endblock %}

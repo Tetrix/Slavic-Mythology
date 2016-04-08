@@ -17,23 +17,63 @@
     #header_color{
         background-color: #1A1818;
     }
-</style>
 
-<style type="text/css">
     p,h3,h4 {
-        color: #000000;
+        color: #000000;  
     }
 
+img{
+
+    max-width:500px;
+    max-height:500px;
+}
+
+#register{
+    position: absolute;
+    top:5%;
+    left:85%;
+}
+
+#login{
+    position: absolute;
+    top:5%;
+    left:75%;
+}
 
 </style>
+
+
 
 <body class="body" style="background-color:#362A2A">
     <div class="container-fluid">
         <div class="row" id='header_color'>
             <br>
 
+                <a href="/">
                 <img src="{% static 'home/img/veles.jpg' %}" class="responsive-img" style='max-height:100px;' alt="face">
-                
+                </a>
+
+                {% if user.is_authenticated %}
+                <div id='login'>
+                    <a href="{% url "django.contrib.auth.views.logout" %}?next=/", style='text-decoration: none'>
+                    Одјави се
+                    </a>
+                </div>
+
+                {% else %}
+                <div id='register'>
+                    <a href="/accounts/register/", style="text-decoration: none">
+                    Регистрирај се
+                    </a>
+                </div>
+
+                <div id='login'>
+                    <a href="/accounts/login/", style="text-decoration: none">
+                        Најави се
+                    </a>        
+                </div>
+                {% endif %}
+
                 <center>
                     <h1 style='color:black'>СЛОВЕНСКА МИТОЛОГИЈА</h1>
                 </center>
@@ -43,10 +83,14 @@
                     <ul class="nav nav-pills">
                         <li><a href='/'>Дома</a></li>
                         <li><a href='/gods/'>Богови</a></li>
-                        <li><a href='/contact/'>Настани</a></li>
+                        <li><a href='/tales/'>Настани</a></li>
+                        <li><a href='/stories/'>Легенди и преданија</a></li>
                     </ul>
 
                 </div>
+
+
+
             <hr>
         </div>
 
