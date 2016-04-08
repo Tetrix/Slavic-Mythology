@@ -1,0 +1,11 @@
+{% extends "home/base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+	{% for god in object_list %}
+		<center><h3>{{ god.name }}</a></h3><br>
+				<img src="{{ god.god_image.url }}" />{{ god.god_image }}
+			<h4>{{ god.description }}</h4>
+		</center>
+	{% endfor %}
+{% endblock %}

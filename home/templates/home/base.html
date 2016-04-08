@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Словенска митологија</title>
+    <meta charset="utf-8" />
+    {% load staticfiles %}
+    
+    <link rel="stylesheet" href="{% static 'home/css/bootstrap.min.css' %}" type = "text/css"/>
+    <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+   
+
+
+</head>
+
+<style type="text/css">
+    #header_color{
+        background-color: #1A1818;
+    }
+</style>
+
+<style type="text/css">
+    p,h3,h4 {
+        color: #000000;
+    }
+
+
+</style>
+
+<body class="body" style="background-color:#362A2A">
+    <div class="container-fluid">
+        <div class="row" id='header_color'>
+            <br>
+
+                <img src="{% static 'home/img/veles.jpg' %}" class="responsive-img" style='max-height:100px;' alt="face">
+                
+                <center>
+                    <h1 style='color:black'>СЛОВЕНСКА МИТОЛОГИЈА</h1>
+                </center>
+                    
+                <div id='header_color'>
+                
+                    <ul class="nav nav-pills">
+                        <li><a href='/'>Дома</a></li>
+                        <li><a href='/gods/'>Богови</a></li>
+                        <li><a href='/contact/'>Настани</a></li>
+                    </ul>
+
+                </div>
+            <hr>
+        </div>
+
+        <div class="row">
+          <!-- <div class="col-sm-2"> -->
+          <br>
+
+          <br>
+           <!-- Great, til you resize. -->
+            <!--<div class="well bs-sidebar affix" id="sidebar" style="background-color:#fff">-->
+           
+          
+            <div class='container-fluid'>
+            <br><br>
+               {% block content %}
+               {% endblock %}   
+            </div>
+          </div>
+        <!-- </div>  -->
+    </div>
+    
+</body>
+
+</html>
