@@ -1,6 +1,7 @@
 from django.db import models
 import os
 
+
     
 
 class Gods(models.Model):
@@ -10,3 +11,5 @@ class Gods(models.Model):
 
 	def __str__(self):
 		return self.name
+
+
