@@ -10,5 +10,4 @@ urlpatterns = [
     url(r'^gods/$', ListView.as_view(queryset=Gods.objects.all(), template_name="home/gods.html")),
     url(r'^tales/$', ListView.as_view(queryset=Gods.objects.all(), template_name="home/gods.html")),
     
-    url(r'^accounts/logout/$', 'django.contrib.auth.views.logout'),
 ]
