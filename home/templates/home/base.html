@@ -11,8 +11,6 @@
    
 </head>
 
-<<<<<<< HEAD
-=======
 <style type="text/css">
     #header_color{
         background-color: #1A1818;
@@ -44,54 +42,14 @@ img{
 
 
 
-<body class="body" style="background-color:#362A2A">
-    <div class="container-fluid">
-        <div class="row" id='header_color'>
-            <br>
-
-                <a href="/">
-                <img src="{% static 'home/img/veles.jpg' %}" class="responsive-img" style='max-height:100px;' alt="face">
-                </a>
-
-                {% if user.is_authenticated %}
-                <div id='login'>
-                    <a href="{% url "django.contrib.auth.views.logout" %}?next=/", style='text-decoration: none'>
-                    Одјави се
-                    </a>
-                </div>
-
-                <div id='register'>
-                    <a href="#">
-                        {{ user }}
-                    </a>
-                </div>    
-
-                {% else %}
-                <div id='register'>
-                    <a href="/accounts/register/", style="text-decoration: none">
-                    Регистрирај се
-                    </a>
-                </div>
-
-                <div id='login'>
-                    <a href="/accounts/login/", style="text-decoration: none">
-                        Најави се
-                    </a>        
-                </div>
-                {% endif %}
->>>>>>> 1d354223938b5c7a4af80059ecd1c66b74682936
-
 <body>
+    
     <header>
                 
                 <center>
                     <h1> SLAVIC MYTHOLOGY </h1>
                 </center>
-
                 
-
-                
-
                 <nav>
                     <ul>
                         
