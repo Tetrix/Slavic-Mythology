@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'home',
-    'registration',
+    # 'registration',
     # 'django.contrib.sites',
     'stories',
     ]
@@ -133,11 +133,11 @@ MEDIA_ROOT='/home/tetrix/Documents/django/slavic_mythology/home/media'
 MEDIA_URL='/media/'
 
 
-REGISTRATION_OPEN = True  
-ACCOUNT_ACTIVATION_DAYS = 7   
-REGISTRATION_AUTO_LOGIN = True 
-LOGIN_REDIRECT_URL = '/'
-SITE_ID=1
+# REGISTRATION_OPEN = True  
+# ACCOUNT_ACTIVATION_DAYS = 7   
+# REGISTRATION_AUTO_LOGIN = True 
+# LOGIN_REDIRECT_URL = '/'
+# SITE_ID=1
 
 from .email_settings import *
 
