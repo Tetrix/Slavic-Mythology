@@ -1,0 +1,18 @@
+-- Logs begin at Thu 2016-03-03 13:58:08 CET, end at Wed 2016-04-13 22:33:07 CEST. --
+Apr 13 22:33:07 localhost.localdomain postgresql-ctl[6743]: Examine the log output.
+Apr 13 22:33:07 localhost.localdomain systemd[1]: [1;39mpostgresql.service: Control process exited, code=exited status=1[0m
+Apr 13 22:33:07 localhost.localdomain systemd[1]: [1;31mFailed to start PostgreSQL database server.[0m
+-- Subject: Unit postgresql.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit postgresql.service has failed.
+-- 
+-- The result is failed.
+Apr 13 22:33:07 localhost.localdomain systemd[1]: [1;39mpostgresql.service: Unit entered failed state.[0m
+Apr 13 22:33:07 localhost.localdomain systemd[1]: [1;39mpostgresql.service: Failed with result 'exit-code'.[0m
+Apr 13 22:33:07 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=postgresql comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+Apr 13 22:33:07 localhost.localdomain sudo[6724]: pam_unix(sudo:session): session closed for user root
+Apr 13 22:33:07 localhost.localdomain audit[6724]: USER_END pid=6724 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+Apr 13 22:33:07 localhost.localdomain audit[6724]: CRED_DISP pid=6724 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+Apr 13 22:33:07 localhost.localdomain polkitd[950]: [1;39mUnregistered Authentication Agent for unix-process:6725:290882 (system bus name :1.149, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)[0m

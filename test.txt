@@ -1,0 +1,1205 @@
+-- Logs begin at Thu 2016-03-03 13:58:08 CET, end at Thu 2016-04-14 17:46:02 CEST. --
+Apr 14 17:29:29 localhost.localdomain /usr/libexec/gdm-x-session[1800]: (II) This device may have been added with another device file.
+Apr 14 17:29:29 localhost.localdomain pkexec[1884]: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+Apr 14 17:29:29 localhost.localdomain pkexec[1884]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Apr 14 17:29:29 localhost.localdomain audit[1884]: USER_START pid=1884 uid=1000 auid=1000 ses=1 subj=unconfined_u:unconfined_r:xserver_t:s0-s0:c0.c1023 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/pkexec" hostname=? addr=? terminal=? res=success'
+Apr 14 17:29:29 localhost.localdomain pkexec[1884]: shakle17: Executing command [USER=root] [TTY=unknown] [CWD=/home/shakle17] [COMMAND=/usr/libexec/xf86-video-intel-backlight-helper intel_backlight]
+Apr 14 17:29:30 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.a11y.Bus'
+Apr 14 17:29:30 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.a11y.Bus'
+Apr 14 17:29:30 localhost.localdomain org.a11y.Bus[1910]: Activating service name='org.a11y.atspi.Registry'
+Apr 14 17:29:30 localhost.localdomain org.a11y.Bus[1910]: Successfully activated service 'org.a11y.atspi.Registry'
+Apr 14 17:29:30 localhost.localdomain org.a11y.atspi.Registry[1964]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Apr 14 17:29:30 localhost.localdomain org.a11y.atspi.Registry[1964]: Xlib:  extension "XEVIE" missing on display ":0".
+Apr 14 17:29:30 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.gtk.vfs.Daemon'
+Apr 14 17:29:30 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.gtk.vfs.Daemon'
+Apr 14 17:29:30 localhost.localdomain kernel: fuse init (API version 7.23)
+Apr 14 17:29:30 localhost.localdomain systemd[1]: Mounting FUSE Control File System...
+-- Subject: Unit sys-fs-fuse-connections.mount has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sys-fs-fuse-connections.mount has begun starting up.
+Apr 14 17:29:30 localhost.localdomain systemd[1]: Mounted FUSE Control File System.
+-- Subject: Unit sys-fs-fuse-connections.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sys-fs-fuse-connections.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Apr 14 17:29:30 localhost.localdomain spice-vdagent[2018]: Cannot access vdagent virtio channel /dev/virtio-ports/com.redhat.spice.0
+Apr 14 17:29:30 localhost.localdomain gnome-session-binary[1913]: WARNING: App 'spice-vdagent.desktop' exited with code 1
+Apr 14 17:29:30 localhost.localdomain gnome-session[1913]: gnome-session-binary[1913]: WARNING: App 'spice-vdagent.desktop' exited with code 1
+Apr 14 17:29:30 localhost.localdomain gnome-keyring-ssh.desktop[1988]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Apr 14 17:29:30 localhost.localdomain gnome-keyring-pkcs11.desktop[2015]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Apr 14 17:29:30 localhost.localdomain rtkit-daemon[896]: Successfully made thread 2024 of process 2024 (/usr/bin/pulseaudio) owned by '1000' high priority at nice level -11.
+Apr 14 17:29:30 localhost.localdomain rtkit-daemon[896]: Supervising 5 threads of 2 processes of 2 users.
+Apr 14 17:29:31 localhost.localdomain rtkit-daemon[896]: Supervising 5 threads of 2 processes of 2 users.
+Apr 14 17:29:31 localhost.localdomain rtkit-daemon[896]: Successfully made thread 2027 of process 2024 (/usr/bin/pulseaudio) owned by '1000' RT at priority 5.
+Apr 14 17:29:31 localhost.localdomain rtkit-daemon[896]: Supervising 6 threads of 2 processes of 2 users.
+Apr 14 17:29:31 localhost.localdomain rtkit-daemon[896]: Supervising 6 threads of 2 processes of 2 users.
+Apr 14 17:29:31 localhost.localdomain rtkit-daemon[896]: Successfully made thread 2030 of process 2024 (/usr/bin/pulseaudio) owned by '1000' RT at priority 5.
+Apr 14 17:29:31 localhost.localdomain rtkit-daemon[896]: Supervising 7 threads of 2 processes of 2 users.
+Apr 14 17:29:31 localhost.localdomain dbus[850]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Apr 14 17:29:31 localhost.localdomain rtkit-daemon[896]: Supervising 7 threads of 2 processes of 2 users.
+Apr 14 17:29:31 localhost.localdomain systemd[1]: Starting Hostname Service...
+-- Subject: Unit systemd-hostnamed.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-hostnamed.service has begun starting up.
+Apr 14 17:29:31 localhost.localdomain audit: NETFILTER_CFG table=filter family=2 entries=0
+Apr 14 17:29:31 localhost.localdomain audit: NETFILTER_CFG table=nat family=2 entries=0
+Apr 14 17:29:31 localhost.localdomain audit: NETFILTER_CFG table=security family=2 entries=0
+Apr 14 17:29:31 localhost.localdomain audit: NETFILTER_CFG table=mangle family=2 entries=0
+Apr 14 17:29:31 localhost.localdomain audit: NETFILTER_CFG table=raw family=2 entries=0
+Apr 14 17:29:31 localhost.localdomain audit: NETFILTER_CFG table=filter family=10 entries=0
+Apr 14 17:29:31 localhost.localdomain audit: NETFILTER_CFG table=nat family=10 entries=0
+Apr 14 17:29:31 localhost.localdomain audit: NETFILTER_CFG table=security family=10 entries=0
+Apr 14 17:29:31 localhost.localdomain audit: NETFILTER_CFG table=mangle family=10 entries=0
+Apr 14 17:29:31 localhost.localdomain audit: NETFILTER_CFG table=raw family=10 entries=0
+Apr 14 17:29:31 localhost.localdomain rtkit-daemon[896]: Successfully made thread 2034 of process 2024 (/usr/bin/pulseaudio) owned by '1000' RT at priority 5.
+Apr 14 17:29:31 localhost.localdomain rtkit-daemon[896]: Supervising 8 threads of 2 processes of 2 users.
+Apr 14 17:29:31 localhost.localdomain dbus[850]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Apr 14 17:29:31 localhost.localdomain systemd[1]: Started Hostname Service.
+-- Subject: Unit systemd-hostnamed.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-hostnamed.service has finished starting up.
+-- 
+-- The start-up result is done.
+Apr 14 17:29:31 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-hostnamed comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Apr 14 17:29:31 localhost.localdomain bluetoothd[847]: Endpoint registered: sender=:1.56 path=/MediaEndpoint/A2DPSource
+Apr 14 17:29:31 localhost.localdomain bluetoothd[847]: Endpoint registered: sender=:1.56 path=/MediaEndpoint/A2DPSink
+Apr 14 17:29:31 localhost.localdomain kernel: Bluetooth: RFCOMM TTY layer initialized
+Apr 14 17:29:31 localhost.localdomain kernel: Bluetooth: RFCOMM socket layer initialized
+Apr 14 17:29:31 localhost.localdomain kernel: Bluetooth: RFCOMM ver 1.11
+Apr 14 17:29:31 localhost.localdomain /usr/libexec/gdm-x-session[1800]: (II) intel(0): EDID vendor "AUO", prod id 14061
+Apr 14 17:29:31 localhost.localdomain /usr/libexec/gdm-x-session[1800]: (II) intel(0): Printing DDC gathered Modelines:
+Apr 14 17:29:31 localhost.localdomain systemd[1]: Starting CUPS Scheduler...
+-- Subject: Unit cups.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.service has begun starting up.
+Apr 14 17:29:31 localhost.localdomain /usr/libexec/gdm-x-session[1800]: (II) intel(0): Modeline "1920x1080"x0.0  142.00  1920 2028 2076 2100  1080 1090 1100 1126 -hsync -vsync (67.6 kHz eP)
+Apr 14 17:29:31 localhost.localdomain systemd[1]: Started CUPS Scheduler.
+-- Subject: Unit cups.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.service has finished starting up.
+-- 
+-- The start-up result is done.
+Apr 14 17:29:31 localhost.localdomain cupsd[2058]: REQUEST localhost - - "POST / HTTP/1.1" 200 364 Create-Printer-Subscriptions successful-ok
+Apr 14 17:29:31 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=cups comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Apr 14 17:29:31 localhost.localdomain dbus[850]: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service'
+Apr 14 17:29:31 localhost.localdomain systemd[1]: Starting Locale Service...
+-- Subject: Unit systemd-localed.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-localed.service has begun starting up.
+Apr 14 17:29:31 localhost.localdomain audit: NETFILTER_CFG table=filter family=2 entries=0
+Apr 14 17:29:31 localhost.localdomain audit: NETFILTER_CFG table=nat family=2 entries=0
+Apr 14 17:29:31 localhost.localdomain audit: NETFILTER_CFG table=security family=2 entries=0
+Apr 14 17:29:31 localhost.localdomain audit: NETFILTER_CFG table=mangle family=2 entries=0
+Apr 14 17:29:31 localhost.localdomain audit: NETFILTER_CFG table=raw family=2 entries=0
+Apr 14 17:29:31 localhost.localdomain audit: NETFILTER_CFG table=filter family=10 entries=0
+Apr 14 17:29:31 localhost.localdomain audit: NETFILTER_CFG table=nat family=10 entries=0
+Apr 14 17:29:31 localhost.localdomain audit: NETFILTER_CFG table=security family=10 entries=0
+Apr 14 17:29:31 localhost.localdomain audit: NETFILTER_CFG table=mangle family=10 entries=0
+Apr 14 17:29:31 localhost.localdomain audit: NETFILTER_CFG table=raw family=10 entries=0
+Apr 14 17:29:31 localhost.localdomain gnome-settings-daemon.desktop[1473]: (gnome-settings-daemon:1473): color-plugin-WARNING **: failed to set screen _ICC_PROFILE: Failed to open file '/home/shakle17/.local/share/icc/edid-389c5e36eb276d943addfa25385ccf96.icc': Permission denied
+Apr 14 17:29:31 localhost.localdomain dbus[850]: [system] Successfully activated service 'org.freedesktop.locale1'
+Apr 14 17:29:31 localhost.localdomain systemd[1]: Started Locale Service.
+-- Subject: Unit systemd-localed.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-localed.service has finished starting up.
+-- 
+-- The start-up result is done.
+Apr 14 17:29:31 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-localed comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Apr 14 17:29:32 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.gnome.Shell.CalendarServer'
+Apr 14 17:29:32 localhost.localdomain dbus[850]: [system] Activating via systemd: service name='org.freedesktop.GeoClue2' unit='geoclue.service'
+Apr 14 17:29:32 localhost.localdomain systemd[1]: Starting Location Lookup Service...
+-- Subject: Unit geoclue.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit geoclue.service has begun starting up.
+Apr 14 17:29:32 localhost.localdomain polkitd[956]: Registered Authentication Agent for unix-session:1 (system bus name :1.59 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 14 17:29:32 localhost.localdomain dbus[850]: [system] Successfully activated service 'org.freedesktop.GeoClue2'
+Apr 14 17:29:32 localhost.localdomain systemd[1]: Started Location Lookup Service.
+-- Subject: Unit geoclue.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit geoclue.service has finished starting up.
+-- 
+-- The start-up result is done.
+Apr 14 17:29:32 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=geoclue comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Apr 14 17:29:32 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.freedesktop.Telepathy.AccountManager'
+Apr 14 17:29:32 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.gnome.OnlineAccounts'
+Apr 14 17:29:32 localhost.localdomain org.gnome.OnlineAccounts[1910]: goa-daemon-Message: goa-daemon version 3.18.4 starting
+Apr 14 17:29:32 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.gtk.vfs.UDisks2VolumeMonitor'
+Apr 14 17:29:32 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.gnome.OnlineAccounts'
+Apr 14 17:29:32 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.gnome.Identity'
+Apr 14 17:29:32 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+Apr 14 17:29:32 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.gtk.vfs.GoaVolumeMonitor'
+Apr 14 17:29:32 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+Apr 14 17:29:32 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.gtk.vfs.AfcVolumeMonitor'
+Apr 14 17:29:32 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.gnome.Identity'
+Apr 14 17:29:32 localhost.localdomain org.gnome.Identity[1910]: (process:2161): libgoaidentity-WARNING **: GoaKerberosIdentityManager: Using polling for change notification for credential cache type 'KEYRING'
+Apr 14 17:29:32 localhost.localdomain org.gtk.vfs.AfcVolumeMonitor[1910]: Volume monitor alive
+Apr 14 17:29:32 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+Apr 14 17:29:32 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.gtk.vfs.MTPVolumeMonitor'
+Apr 14 17:29:32 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+Apr 14 17:29:32 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.gtk.vfs.GPhoto2VolumeMonitor'
+Apr 14 17:29:32 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+Apr 14 17:29:32 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.gnome.evolution.dataserver.Sources5'
+Apr 14 17:29:33 localhost.localdomain gnome-shell.desktop[2072]: (gnome-shell:2072): IBUS-WARNING **: Unable to connect to ibus: Could not connect: Connection refused
+Apr 14 17:29:33 localhost.localdomain vmware-user.desktop[2290]: vmware-user: could not open /proc/fs/vmblock/dev
+Apr 14 17:29:33 localhost.localdomain gnome-settings-daemon.desktop[1473]: (gnome-settings-daemon:1473): color-plugin-WARNING **: failed to set screen _ICC_PROFILE: Failed to open file '/home/shakle17/.local/share/icc/edid-389c5e36eb276d943addfa25385ccf96.icc': Permission denied
+Apr 14 17:29:33 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.freedesktop.Tracker1'
+Apr 14 17:29:33 localhost.localdomain gnome-shell[2072]: GNOME Shell started at Thu Apr 14 2016 17:29:32 GMT+0200 (CEST)
+Apr 14 17:29:33 localhost.localdomain org.gtk.vfs.Daemon[1910]: Device 0 (VID=04e8 and PID=6860) is a Samsung Galaxy models (MTP).
+Apr 14 17:29:33 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.gnome.Shell.HotplugSniffer'
+Apr 14 17:29:34 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.freedesktop.Tracker1'
+Apr 14 17:29:34 localhost.localdomain tracker-store.desktop[2344]: (uint32 1,)
+Apr 14 17:29:34 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.gnome.Shell.HotplugSniffer'
+Apr 14 17:29:34 localhost.localdomain libcanberra-login-sound.desktop[2349]: Failed to play sound: File or data not found
+Apr 14 17:29:35 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.gnome.evolution.dataserver.Sources5'
+Apr 14 17:29:36 localhost.localdomain org.gtk.vfs.Daemon[1910]: ** (process:2297): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/31 (g-dbus-error-quark, 19)
+Apr 14 17:29:36 localhost.localdomain org.gtk.vfs.Daemon[1910]: ** (process:2297): WARNING **: send_done_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/31 (g-dbus-error-quark, 19)
+Apr 14 17:29:36 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.freedesktop.Telepathy.AccountManager'
+Apr 14 17:29:36 localhost.localdomain gnome-shell.desktop[2072]: (gnome-shell:2072): mutter-WARNING **: STACK_OP_ADD: window 0x1200001 already in stack
+Apr 14 17:29:36 localhost.localdomain gnome-shell.desktop[2072]: (gnome-shell:2072): mutter-WARNING **: STACK_OP_ADD: window 0x1200001 already in stack
+Apr 14 17:29:36 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.gnome.Shell.CalendarServer'
+Apr 14 17:29:36 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.gnome.evolution.dataserver.Calendar7'
+Apr 14 17:29:36 localhost.localdomain gnome-session-binary[1913]: Entering running state
+Apr 14 17:29:36 localhost.localdomain dbus[850]: [system] Activating service name='org.freedesktop.problems' (using servicehelper)
+Apr 14 17:29:37 localhost.localdomain dbus[850]: [system] Successfully activated service 'org.freedesktop.problems'
+Apr 14 17:29:37 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=geoclue comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Apr 14 17:29:37 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.gnome.evolution.dataserver.Calendar7'
+Apr 14 17:29:37 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.gnome.evolution.dataserver.AddressBook9'
+Apr 14 17:29:37 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.gnome.evolution.dataserver.AddressBook9'
+Apr 14 17:29:40 localhost.localdomain tracker-miner-fs.desktop[2358]: (tracker-miner-fs:2358): Tracker-WARNING **: Could not find parent node for URI:'mtp://[usb:001,002]/'
+Apr 14 17:29:40 localhost.localdomain tracker-miner-fs.desktop[2358]: (tracker-miner-fs:2358): Tracker-WARNING **: NOTE: URI theme may be outside scheme expected, for example, expecting 'file://' when given 'http://' prefix.
+Apr 14 17:29:40 localhost.localdomain tracker-miner-fs.desktop[2358]: (tracker-miner-fs:2358): Tracker-WARNING **: Could not find parent node for URI:'mtp://[usb:001,002]/'
+Apr 14 17:29:40 localhost.localdomain tracker-miner-fs.desktop[2358]: (tracker-miner-fs:2358): Tracker-WARNING **: NOTE: URI theme may be outside scheme expected, for example, expecting 'file://' when given 'http://' prefix.
+Apr 14 17:29:40 localhost.localdomain tracker-miner-fs.desktop[2358]: (tracker-miner-fs:2358): Tracker-CRITICAL **: Could not initialize currently active mount points: GDBus.Error:org.freedesktop.Tracker1.SparqlError.Internal: UNIQUE constraint failed: nie:DataObject.nie:url (strerror of errno (not necessarily related): No such file or directory)
+Apr 14 17:29:40 localhost.localdomain tracker-miner-fs.desktop[2358]: (tracker-miner-fs:2358): Tracker-CRITICAL **: Could not set mount point in database 'urn:nepomuk:datasource:5c7e6bb78b9a6691c3ecea3925b2971d', GDBus.Error:org.freedesktop.Tracker1.SparqlError.Internal: UNIQUE constraint failed: nie:DataObject.nie:url (strerror of errno (not necessarily related): No such file or directory)
+Apr 14 17:29:42 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='ca.desrt.dconf'
+Apr 14 17:29:42 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'ca.desrt.dconf'
+Apr 14 17:29:48 localhost.localdomain realmd[1568]: quitting realmd service after timeout
+Apr 14 17:29:48 localhost.localdomain realmd[1568]: stopping service
+Apr 14 17:29:54 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=fprintd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Apr 14 17:30:03 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-hostnamed comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Apr 14 17:30:08 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-localed comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Apr 14 17:30:08 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.gnome.GConf'
+Apr 14 17:30:08 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.gnome.GConf'
+Apr 14 17:31:01 localhost.localdomain kernel: usb 1-2: USB disconnect, device number 2
+Apr 14 17:31:01 localhost.localdomain systemd-udevd[2684]: failed to execute '/usr/share/virtualbox/VBoxCreateUSBNode.sh' '/usr/share/virtualbox/VBoxCreateUSBNode.sh --remove 189 1': No such file or directory
+Apr 14 17:31:01 localhost.localdomain systemd-udevd[2683]: Process '/usr/share/virtualbox/VBoxCreateUSBNode.sh --remove 189 1' failed with exit code 2.
+Apr 14 17:31:01 localhost.localdomain kernel: usb 1-2: new high-speed USB device number 5 using xhci_hcd
+Apr 14 17:31:01 localhost.localdomain kernel: usb 1-2: New USB device found, idVendor=04e8, idProduct=6860
+Apr 14 17:31:01 localhost.localdomain kernel: usb 1-2: New USB device strings: Mfr=2, Product=3, SerialNumber=4
+Apr 14 17:31:01 localhost.localdomain kernel: usb 1-2: Product: SAMSUNG_Android
+Apr 14 17:31:01 localhost.localdomain kernel: usb 1-2: Manufacturer: SAMSUNG
+Apr 14 17:31:01 localhost.localdomain kernel: usb 1-2: SerialNumber: 420016f79be7a200
+Apr 14 17:31:01 localhost.localdomain systemd-udevd[2695]: failed to execute '/usr/share/virtualbox/VBoxCreateUSBNode.sh' '/usr/share/virtualbox/VBoxCreateUSBNode.sh 189 4 00': No such file or directory
+Apr 14 17:31:01 localhost.localdomain systemd-udevd[2694]: Process '/usr/share/virtualbox/VBoxCreateUSBNode.sh 189 4 00' failed with exit code 2.
+Apr 14 17:31:01 localhost.localdomain org.gtk.vfs.Daemon[1910]: PTP: reading event an error 0x02ff occurredDevice 0 (VID=04e8 and PID=6860) is a Samsung Galaxy models (MTP).
+Apr 14 17:31:02 localhost.localdomain tracker-miner-fs.desktop[2358]: (tracker-miner-fs:2358): Tracker-WARNING **: Could not find parent node for URI:'mtp://[usb:001,005]/'
+Apr 14 17:31:02 localhost.localdomain tracker-miner-fs.desktop[2358]: (tracker-miner-fs:2358): Tracker-WARNING **: NOTE: URI theme may be outside scheme expected, for example, expecting 'file://' when given 'http://' prefix.
+Apr 14 17:31:02 localhost.localdomain tracker-miner-fs.desktop[2358]: (tracker-miner-fs:2358): Tracker-WARNING **: Could not find parent node for URI:'mtp://[usb:001,005]/'
+Apr 14 17:31:02 localhost.localdomain tracker-miner-fs.desktop[2358]: (tracker-miner-fs:2358): Tracker-WARNING **: NOTE: URI theme may be outside scheme expected, for example, expecting 'file://' when given 'http://' prefix.
+Apr 14 17:31:02 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.gnome.Shell.HotplugSniffer'
+Apr 14 17:31:02 localhost.localdomain tracker-miner-fs.desktop[2358]: (tracker-miner-fs:2358): Tracker-CRITICAL **: Could not set mount point in database 'urn:nepomuk:datasource:6e1fd177fb532e5ee952b9177d469ea7', GDBus.Error:org.freedesktop.Tracker1.SparqlError.Internal: UNIQUE constraint failed: nie:DataObject.nie:url (strerror of errno (not necessarily related): No such file or directory)
+Apr 14 17:31:02 localhost.localdomain tracker-miner-fs.desktop[2358]: (tracker-miner-fs:2358): Tracker-CRITICAL **: Could not set mount point in database 'urn:nepomuk:datasource:5c7e6bb78b9a6691c3ecea3925b2971d', GDBus.Error:org.freedesktop.Tracker1.SparqlError.Internal: UNIQUE constraint failed: nie:DataObject.nie:url (strerror of errno (not necessarily related): No such file or directory)
+Apr 14 17:31:02 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.gnome.Shell.HotplugSniffer'
+Apr 14 17:31:04 localhost.localdomain org.gtk.vfs.Daemon[1910]: ** (process:2711): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/34 (g-dbus-error-quark, 19)
+Apr 14 17:31:04 localhost.localdomain org.gtk.vfs.Daemon[1910]: ** (process:2711): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/34 (g-dbus-error-quark, 19)
+Apr 14 17:31:04 localhost.localdomain org.gtk.vfs.Daemon[1910]: ** (process:2711): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/34 (g-dbus-error-quark, 19)
+Apr 14 17:31:04 localhost.localdomain org.gtk.vfs.Daemon[1910]: ** (process:2711): WARNING **: send_infos_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/34 (g-dbus-error-quark, 19)
+Apr 14 17:31:04 localhost.localdomain org.gtk.vfs.Daemon[1910]: ** (process:2711): WARNING **: send_done_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/34 (g-dbus-error-quark, 19)
+Apr 14 17:35:12 localhost.localdomain kernel: nf_conntrack: automatic helper assignment is deprecated and it will be removed soon. Use the iptables CT target to attach helpers instead.
+Apr 14 17:36:09 localhost.localdomain gnome-settings-daemon.desktop[1992]: (firefox:2508): Gtk-CRITICAL **: gtk_clipboard_set_with_data: assertion 'targets != NULL' failed
+Apr 14 17:36:12 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.gnome.Terminal'
+Apr 14 17:36:12 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.gnome.Terminal'
+Apr 14 17:36:37 localhost.localdomain python3[2821]: detected unhandled Python exception in 'manage.py'
+Apr 14 17:36:37 localhost.localdomain dbus[850]: [system] Activating service name='org.freedesktop.problems' (using servicehelper)
+Apr 14 17:36:37 localhost.localdomain dbus[850]: [system] Successfully activated service 'org.freedesktop.problems'
+Apr 14 17:36:56 localhost.localdomain dbus[850]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service'
+Apr 14 17:36:56 localhost.localdomain systemd[1]: Starting Fingerprint Authentication Daemon...
+-- Subject: Unit fprintd.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit fprintd.service has begun starting up.
+Apr 14 17:36:56 localhost.localdomain dbus[850]: [system] Successfully activated service 'net.reactivated.Fprint'
+Apr 14 17:36:56 localhost.localdomain systemd[1]: Started Fingerprint Authentication Daemon.
+-- Subject: Unit fprintd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit fprintd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Apr 14 17:36:56 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=fprintd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Apr 14 17:37:00 localhost.localdomain audit[2837]: USER_AUTH pid=2837 uid=1000 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:authentication grantors=pam_unix acct="shakle17" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:37:00 localhost.localdomain audit[2837]: USER_ACCT pid=2837 uid=1000 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="shakle17" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:37:00 localhost.localdomain sudo[2837]: shakle17 : TTY=pts/0 ; PWD=/home/shakle17/shakle/projects/slavic-mythology ; USER=root ; COMMAND=/bin/systemctl start postgresql
+Apr 14 17:37:00 localhost.localdomain audit[2837]: USER_CMD pid=2837 uid=1000 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='cwd="/home/shakle17/shakle/projects/slavic-mythology" cmd=73797374656D63746C20737461727420706F737467726573716C terminal=pts/0 res=success'
+Apr 14 17:37:00 localhost.localdomain audit[2837]: CRED_REFR pid=2837 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:37:00 localhost.localdomain sudo[2837]: pam_systemd(sudo:session): Cannot create session: Already running in a session
+Apr 14 17:37:00 localhost.localdomain sudo[2837]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 14 17:37:00 localhost.localdomain audit[2837]: USER_START pid=2837 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:37:00 localhost.localdomain polkitd[956]: Registered Authentication Agent for unix-process:2844:55217 (system bus name :1.86 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 14 17:37:00 localhost.localdomain systemd[1]: Starting PostgreSQL database server...
+-- Subject: Unit postgresql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit postgresql.service has begun starting up.
+Apr 14 17:37:00 localhost.localdomain postgresql-ctl[2857]: FATAL:  data directory "/var/lib/pgsql/data" has group or world access
+Apr 14 17:37:00 localhost.localdomain postgresql-ctl[2857]: DETAIL:  Permissions should be u=rwx (0700).
+Apr 14 17:37:01 localhost.localdomain postgresql-ctl[2857]: pg_ctl: could not start server
+Apr 14 17:37:01 localhost.localdomain postgresql-ctl[2857]: Examine the log output.
+Apr 14 17:37:01 localhost.localdomain systemd[1]: postgresql.service: Control process exited, code=exited status=1
+Apr 14 17:37:01 localhost.localdomain systemd[1]: Failed to start PostgreSQL database server.
+-- Subject: Unit postgresql.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit postgresql.service has failed.
+-- 
+-- The result is failed.
+Apr 14 17:37:01 localhost.localdomain systemd[1]: postgresql.service: Unit entered failed state.
+Apr 14 17:37:01 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=postgresql comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+Apr 14 17:37:01 localhost.localdomain systemd[1]: postgresql.service: Failed with result 'exit-code'.
+Apr 14 17:37:01 localhost.localdomain sudo[2837]: pam_unix(sudo:session): session closed for user root
+Apr 14 17:37:01 localhost.localdomain audit[2837]: USER_END pid=2837 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:37:01 localhost.localdomain audit[2837]: CRED_DISP pid=2837 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:37:01 localhost.localdomain polkitd[956]: Unregistered Authentication Agent for unix-process:2844:55217 (system bus name :1.86, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 14 17:37:21 localhost.localdomain chronyd[862]: Selected source 195.26.136.200
+Apr 14 17:37:22 localhost.localdomain sudo[3110]: shakle17 : TTY=pts/0 ; PWD=/home/shakle17/shakle/projects/slavic-mythology ; USER=root ; COMMAND=/bin/systemctl start postgres
+Apr 14 17:37:22 localhost.localdomain audit[3110]: USER_CMD pid=3110 uid=1000 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='cwd="/home/shakle17/shakle/projects/slavic-mythology" cmd=73797374656D63746C20737461727420706F737467726573 terminal=pts/0 res=success'
+Apr 14 17:37:22 localhost.localdomain audit[3110]: CRED_REFR pid=3110 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:37:22 localhost.localdomain sudo[3110]: pam_systemd(sudo:session): Cannot create session: Already running in a session
+Apr 14 17:37:22 localhost.localdomain sudo[3110]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 14 17:37:22 localhost.localdomain audit[3110]: USER_START pid=3110 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:37:22 localhost.localdomain polkitd[956]: Registered Authentication Agent for unix-process:3111:57469 (system bus name :1.88 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 14 17:37:22 localhost.localdomain audit[1]: USER_AVC pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='Unknown permission start for class system exe="/usr/lib/systemd/systemd" sauid=0 hostname=? addr=? terminal=?'
+Apr 14 17:37:22 localhost.localdomain audit[1]: USER_AVC pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='Unknown permission start for class system exe="/usr/lib/systemd/systemd" sauid=0 hostname=? addr=? terminal=?'
+Apr 14 17:37:22 localhost.localdomain sudo[3110]: pam_unix(sudo:session): session closed for user root
+Apr 14 17:37:22 localhost.localdomain audit[3110]: USER_END pid=3110 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:37:22 localhost.localdomain audit[3110]: CRED_DISP pid=3110 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:37:22 localhost.localdomain polkitd[956]: Unregistered Authentication Agent for unix-process:3111:57469 (system bus name :1.88, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 14 17:37:25 localhost.localdomain sudo[3260]: shakle17 : TTY=pts/0 ; PWD=/home/shakle17/shakle/projects/slavic-mythology ; USER=root ; COMMAND=/bin/systemctl start postgresql
+Apr 14 17:37:25 localhost.localdomain audit[3260]: USER_CMD pid=3260 uid=1000 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='cwd="/home/shakle17/shakle/projects/slavic-mythology" cmd=73797374656D63746C20737461727420706F737467726573716C terminal=pts/0 res=success'
+Apr 14 17:37:25 localhost.localdomain audit[3260]: CRED_REFR pid=3260 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:37:25 localhost.localdomain sudo[3260]: pam_systemd(sudo:session): Cannot create session: Already running in a session
+Apr 14 17:37:25 localhost.localdomain sudo[3260]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 14 17:37:25 localhost.localdomain audit[3260]: USER_START pid=3260 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:37:25 localhost.localdomain polkitd[956]: Registered Authentication Agent for unix-process:3261:57770 (system bus name :1.90 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 14 17:37:25 localhost.localdomain systemd[1]: Starting PostgreSQL database server...
+-- Subject: Unit postgresql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit postgresql.service has begun starting up.
+Apr 14 17:37:25 localhost.localdomain postgresql-ctl[3272]: FATAL:  data directory "/var/lib/pgsql/data" has group or world access
+Apr 14 17:37:25 localhost.localdomain postgresql-ctl[3272]: DETAIL:  Permissions should be u=rwx (0700).
+Apr 14 17:37:26 localhost.localdomain postgresql-ctl[3272]: pg_ctl: could not start server
+Apr 14 17:37:26 localhost.localdomain postgresql-ctl[3272]: Examine the log output.
+Apr 14 17:37:26 localhost.localdomain systemd[1]: postgresql.service: Control process exited, code=exited status=1
+Apr 14 17:37:26 localhost.localdomain systemd[1]: Failed to start PostgreSQL database server.
+-- Subject: Unit postgresql.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit postgresql.service has failed.
+-- 
+-- The result is failed.
+Apr 14 17:37:26 localhost.localdomain systemd[1]: postgresql.service: Unit entered failed state.
+Apr 14 17:37:26 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=postgresql comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+Apr 14 17:37:26 localhost.localdomain systemd[1]: postgresql.service: Failed with result 'exit-code'.
+Apr 14 17:37:26 localhost.localdomain sudo[3260]: pam_unix(sudo:session): session closed for user root
+Apr 14 17:37:26 localhost.localdomain audit[3260]: USER_END pid=3260 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:37:26 localhost.localdomain polkitd[956]: Unregistered Authentication Agent for unix-process:3261:57770 (system bus name :1.90, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 14 17:37:26 localhost.localdomain audit[3260]: CRED_DISP pid=3260 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:37:27 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=fprintd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Apr 14 17:37:55 localhost.localdomain sudo[3527]: shakle17 : TTY=pts/0 ; PWD=/home/shakle17/shakle/projects/slavic-mythology ; USER=root ; COMMAND=/bin/systemctl start postgresql.service
+Apr 14 17:37:55 localhost.localdomain audit[3527]: USER_CMD pid=3527 uid=1000 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='cwd="/home/shakle17/shakle/projects/slavic-mythology" cmd=73797374656D63746C20737461727420706F737467726573716C2E73657276696365 terminal=pts/0 res=success'
+Apr 14 17:37:55 localhost.localdomain audit[3527]: CRED_REFR pid=3527 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:37:55 localhost.localdomain systemd[1]: Starting dnf makecache...
+-- Subject: Unit dnf-makecache.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dnf-makecache.service has begun starting up.
+Apr 14 17:37:55 localhost.localdomain sudo[3527]: pam_systemd(sudo:session): Cannot create session: Already running in a session
+Apr 14 17:37:55 localhost.localdomain sudo[3527]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 14 17:37:55 localhost.localdomain audit[3527]: USER_START pid=3527 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:37:55 localhost.localdomain polkitd[956]: Registered Authentication Agent for unix-process:3530:60714 (system bus name :1.92 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 14 17:37:55 localhost.localdomain systemd[1]: Starting PostgreSQL database server...
+-- Subject: Unit postgresql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit postgresql.service has begun starting up.
+Apr 14 17:37:55 localhost.localdomain postgresql-ctl[3541]: FATAL:  data directory "/var/lib/pgsql/data" has group or world access
+Apr 14 17:37:55 localhost.localdomain postgresql-ctl[3541]: DETAIL:  Permissions should be u=rwx (0700).
+Apr 14 17:37:56 localhost.localdomain dnf[3528]: cachedir: /var/cache/dnf
+Apr 14 17:37:56 localhost.localdomain postgresql-ctl[3541]: pg_ctl: could not start server
+Apr 14 17:37:56 localhost.localdomain postgresql-ctl[3541]: Examine the log output.
+Apr 14 17:37:56 localhost.localdomain systemd[1]: postgresql.service: Control process exited, code=exited status=1
+Apr 14 17:37:56 localhost.localdomain systemd[1]: Failed to start PostgreSQL database server.
+-- Subject: Unit postgresql.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit postgresql.service has failed.
+-- 
+-- The result is failed.
+Apr 14 17:37:56 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=postgresql comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+Apr 14 17:37:56 localhost.localdomain systemd[1]: postgresql.service: Unit entered failed state.
+Apr 14 17:37:56 localhost.localdomain systemd[1]: postgresql.service: Failed with result 'exit-code'.
+Apr 14 17:37:56 localhost.localdomain polkitd[956]: Unregistered Authentication Agent for unix-process:3530:60714 (system bus name :1.92, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 14 17:37:56 localhost.localdomain sudo[3527]: pam_unix(sudo:session): session closed for user root
+Apr 14 17:37:56 localhost.localdomain audit[3527]: USER_END pid=3527 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:37:56 localhost.localdomain audit[3527]: CRED_DISP pid=3527 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:37:56 localhost.localdomain dnf[3528]: Loaded plugins: protected_packages, config-manager, debuginfo-install, noroot, Query, copr, builddep, playground, download, needs-restarting, reposync, generate_completion_cache
+Apr 14 17:37:56 localhost.localdomain dnf[3528]: DNF version: 1.1.7
+Apr 14 17:37:56 localhost.localdomain dnf[3528]: Making cache files for all metadata files.
+Apr 14 17:37:56 localhost.localdomain dnf[3528]: Metadata cache refreshed recently.
+Apr 14 17:37:56 localhost.localdomain systemd[1]: Started dnf makecache.
+-- Subject: Unit dnf-makecache.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dnf-makecache.service has finished starting up.
+-- 
+-- The start-up result is done.
+Apr 14 17:37:56 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=dnf-makecache comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Apr 14 17:37:56 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=dnf-makecache comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Apr 14 17:38:22 localhost.localdomain sudo[3809]: shakle17 : TTY=pts/0 ; PWD=/home/shakle17/shakle/projects/slavic-mythology ; USER=root ; COMMAND=/bin/postgresql-setup --initdb --unit postgresql
+Apr 14 17:38:22 localhost.localdomain audit[3809]: USER_CMD pid=3809 uid=1000 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='cwd="/home/shakle17/shakle/projects/slavic-mythology" cmd=706F737467726573716C2D7365747570202D2D696E69746462202D2D756E697420706F737467726573716C terminal=pts/0 res=success'
+Apr 14 17:38:22 localhost.localdomain audit[3809]: CRED_REFR pid=3809 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:38:22 localhost.localdomain sudo[3809]: pam_systemd(sudo:session): Cannot create session: Already running in a session
+Apr 14 17:38:22 localhost.localdomain sudo[3809]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 14 17:38:22 localhost.localdomain audit[3809]: USER_START pid=3809 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:38:23 localhost.localdomain sudo[3809]: pam_unix(sudo:session): session closed for user root
+Apr 14 17:38:23 localhost.localdomain audit[3809]: USER_END pid=3809 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:38:23 localhost.localdomain audit[3809]: CRED_DISP pid=3809 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:39:24 localhost.localdomain sudo[3836]: shakle17 : TTY=pts/0 ; PWD=/home/shakle17/shakle/projects/slavic-mythology ; USER=root ; COMMAND=/bin/systemctl enable postgresql
+Apr 14 17:39:24 localhost.localdomain audit[3836]: USER_CMD pid=3836 uid=1000 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='cwd="/home/shakle17/shakle/projects/slavic-mythology" cmd=73797374656D63746C20656E61626C6520706F737467726573716C terminal=pts/0 res=success'
+Apr 14 17:39:24 localhost.localdomain audit[3836]: CRED_REFR pid=3836 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:39:24 localhost.localdomain sudo[3836]: pam_systemd(sudo:session): Cannot create session: Already running in a session
+Apr 14 17:39:24 localhost.localdomain sudo[3836]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 14 17:39:24 localhost.localdomain audit[3836]: USER_START pid=3836 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:39:24 localhost.localdomain polkitd[956]: Registered Authentication Agent for unix-process:3837:69589 (system bus name :1.95 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 14 17:39:24 localhost.localdomain systemd[1]: Reloading.
+Apr 14 17:39:24 localhost.localdomain systemd[1]: Configuration file /usr/lib/systemd/system/auditd.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+Apr 14 17:39:24 localhost.localdomain sudo[3836]: pam_unix(sudo:session): session closed for user root
+Apr 14 17:39:24 localhost.localdomain audit[3836]: USER_END pid=3836 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:39:24 localhost.localdomain audit[3836]: CRED_DISP pid=3836 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:39:24 localhost.localdomain polkitd[956]: Unregistered Authentication Agent for unix-process:3837:69589 (system bus name :1.95, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 14 17:39:27 localhost.localdomain sudo[4109]: shakle17 : TTY=pts/0 ; PWD=/home/shakle17/shakle/projects/slavic-mythology ; USER=root ; COMMAND=/bin/systemctl start postgresql.service
+Apr 14 17:39:27 localhost.localdomain audit[4109]: USER_CMD pid=4109 uid=1000 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='cwd="/home/shakle17/shakle/projects/slavic-mythology" cmd=73797374656D63746C20737461727420706F737467726573716C2E73657276696365 terminal=pts/0 res=success'
+Apr 14 17:39:27 localhost.localdomain audit[4109]: CRED_REFR pid=4109 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:39:27 localhost.localdomain sudo[4109]: pam_systemd(sudo:session): Cannot create session: Already running in a session
+Apr 14 17:39:27 localhost.localdomain sudo[4109]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 14 17:39:27 localhost.localdomain audit[4109]: USER_START pid=4109 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:39:27 localhost.localdomain polkitd[956]: Registered Authentication Agent for unix-process:4110:69886 (system bus name :1.97 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 14 17:39:27 localhost.localdomain systemd[1]: Starting PostgreSQL database server...
+-- Subject: Unit postgresql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit postgresql.service has begun starting up.
+Apr 14 17:39:27 localhost.localdomain postgresql-ctl[4128]: FATAL:  data directory "/var/lib/pgsql/data" has group or world access
+Apr 14 17:39:27 localhost.localdomain postgresql-ctl[4128]: DETAIL:  Permissions should be u=rwx (0700).
+Apr 14 17:39:28 localhost.localdomain postgresql-ctl[4128]: pg_ctl: could not start server
+Apr 14 17:39:28 localhost.localdomain postgresql-ctl[4128]: Examine the log output.
+Apr 14 17:39:28 localhost.localdomain systemd[1]: postgresql.service: Control process exited, code=exited status=1
+Apr 14 17:39:28 localhost.localdomain systemd[1]: Failed to start PostgreSQL database server.
+-- Subject: Unit postgresql.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit postgresql.service has failed.
+-- 
+-- The result is failed.
+Apr 14 17:39:28 localhost.localdomain systemd[1]: postgresql.service: Unit entered failed state.
+Apr 14 17:39:28 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=postgresql comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+Apr 14 17:39:28 localhost.localdomain systemd[1]: postgresql.service: Failed with result 'exit-code'.
+Apr 14 17:39:28 localhost.localdomain sudo[4109]: pam_unix(sudo:session): session closed for user root
+Apr 14 17:39:28 localhost.localdomain audit[4109]: USER_END pid=4109 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:39:28 localhost.localdomain polkitd[956]: Unregistered Authentication Agent for unix-process:4110:69886 (system bus name :1.97, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 14 17:39:28 localhost.localdomain audit[4109]: CRED_DISP pid=4109 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:39:48 localhost.localdomain sudo[4373]: shakle17 : TTY=pts/0 ; PWD=/home/shakle17/shakle/projects/slavic-mythology ; USER=root ; COMMAND=/bin/postgresql-setup initdb
+Apr 14 17:39:48 localhost.localdomain audit[4373]: USER_CMD pid=4373 uid=1000 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='cwd="/home/shakle17/shakle/projects/slavic-mythology" cmd=706F737467726573716C2D736574757020696E69746462 terminal=pts/0 res=success'
+Apr 14 17:39:48 localhost.localdomain audit[4373]: CRED_REFR pid=4373 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:39:48 localhost.localdomain sudo[4373]: pam_systemd(sudo:session): Cannot create session: Already running in a session
+Apr 14 17:39:48 localhost.localdomain sudo[4373]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 14 17:39:48 localhost.localdomain audit[4373]: USER_START pid=4373 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:39:48 localhost.localdomain sudo[4373]: pam_unix(sudo:session): session closed for user root
+Apr 14 17:39:48 localhost.localdomain audit[4373]: USER_END pid=4373 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:39:48 localhost.localdomain audit[4373]: CRED_DISP pid=4373 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:39:58 localhost.localdomain sudo[4405]: shakle17 : TTY=pts/0 ; PWD=/home/shakle17/shakle/projects/slavic-mythology ; USER=root ; COMMAND=/bin/systemctl start postgresql.service
+Apr 14 17:39:58 localhost.localdomain audit[4405]: USER_CMD pid=4405 uid=1000 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='cwd="/home/shakle17/shakle/projects/slavic-mythology" cmd=73797374656D63746C20737461727420706F737467726573716C2E73657276696365 terminal=pts/0 res=success'
+Apr 14 17:39:58 localhost.localdomain audit[4405]: CRED_REFR pid=4405 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:39:58 localhost.localdomain sudo[4405]: pam_systemd(sudo:session): Cannot create session: Already running in a session
+Apr 14 17:39:58 localhost.localdomain sudo[4405]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 14 17:39:58 localhost.localdomain audit[4405]: USER_START pid=4405 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:39:58 localhost.localdomain polkitd[956]: Registered Authentication Agent for unix-process:4406:73015 (system bus name :1.100 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 14 17:39:58 localhost.localdomain systemd[1]: Starting PostgreSQL database server...
+-- Subject: Unit postgresql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit postgresql.service has begun starting up.
+Apr 14 17:39:58 localhost.localdomain postgresql-ctl[4416]: FATAL:  data directory "/var/lib/pgsql/data" has group or world access
+Apr 14 17:39:58 localhost.localdomain postgresql-ctl[4416]: DETAIL:  Permissions should be u=rwx (0700).
+Apr 14 17:39:59 localhost.localdomain postgresql-ctl[4416]: pg_ctl: could not start server
+Apr 14 17:39:59 localhost.localdomain postgresql-ctl[4416]: Examine the log output.
+Apr 14 17:39:59 localhost.localdomain systemd[1]: postgresql.service: Control process exited, code=exited status=1
+Apr 14 17:39:59 localhost.localdomain systemd[1]: Failed to start PostgreSQL database server.
+-- Subject: Unit postgresql.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit postgresql.service has failed.
+-- 
+-- The result is failed.
+Apr 14 17:39:59 localhost.localdomain systemd[1]: postgresql.service: Unit entered failed state.
+Apr 14 17:39:59 localhost.localdomain systemd[1]: postgresql.service: Failed with result 'exit-code'.
+Apr 14 17:39:59 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=postgresql comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+Apr 14 17:39:59 localhost.localdomain polkitd[956]: Unregistered Authentication Agent for unix-process:4406:73015 (system bus name :1.100, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 14 17:39:59 localhost.localdomain sudo[4405]: pam_unix(sudo:session): session closed for user root
+Apr 14 17:39:59 localhost.localdomain audit[4405]: USER_END pid=4405 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:39:59 localhost.localdomain audit[4405]: CRED_DISP pid=4405 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:40:07 localhost.localdomain sudo[4668]: shakle17 : TTY=pts/0 ; PWD=/home/shakle17/shakle/projects/slavic-mythology ; USER=root ; COMMAND=/bin/systemctl restart postgresql.service
+Apr 14 17:40:07 localhost.localdomain audit[4668]: USER_CMD pid=4668 uid=1000 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='cwd="/home/shakle17/shakle/projects/slavic-mythology" cmd=73797374656D63746C207265737461727420706F737467726573716C2E73657276696365 terminal=pts/0 res=success'
+Apr 14 17:40:07 localhost.localdomain audit[4668]: CRED_REFR pid=4668 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:40:07 localhost.localdomain sudo[4668]: pam_systemd(sudo:session): Cannot create session: Already running in a session
+Apr 14 17:40:07 localhost.localdomain sudo[4668]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 14 17:40:07 localhost.localdomain audit[4668]: USER_START pid=4668 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:40:07 localhost.localdomain polkitd[956]: Registered Authentication Agent for unix-process:4669:73931 (system bus name :1.102 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 14 17:40:07 localhost.localdomain systemd[1]: Starting PostgreSQL database server...
+-- Subject: Unit postgresql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit postgresql.service has begun starting up.
+Apr 14 17:40:07 localhost.localdomain postgresql-ctl[4682]: FATAL:  data directory "/var/lib/pgsql/data" has group or world access
+Apr 14 17:40:07 localhost.localdomain postgresql-ctl[4682]: DETAIL:  Permissions should be u=rwx (0700).
+Apr 14 17:40:08 localhost.localdomain postgresql-ctl[4682]: pg_ctl: could not start server
+Apr 14 17:40:08 localhost.localdomain postgresql-ctl[4682]: Examine the log output.
+Apr 14 17:40:08 localhost.localdomain systemd[1]: postgresql.service: Control process exited, code=exited status=1
+Apr 14 17:40:08 localhost.localdomain systemd[1]: Failed to start PostgreSQL database server.
+-- Subject: Unit postgresql.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit postgresql.service has failed.
+-- 
+-- The result is failed.
+Apr 14 17:40:08 localhost.localdomain systemd[1]: postgresql.service: Unit entered failed state.
+Apr 14 17:40:08 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=postgresql comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+Apr 14 17:40:08 localhost.localdomain systemd[1]: postgresql.service: Failed with result 'exit-code'.
+Apr 14 17:40:08 localhost.localdomain sudo[4668]: pam_unix(sudo:session): session closed for user root
+Apr 14 17:40:08 localhost.localdomain audit[4668]: USER_END pid=4668 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:40:08 localhost.localdomain polkitd[956]: Unregistered Authentication Agent for unix-process:4669:73931 (system bus name :1.102, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 14 17:40:08 localhost.localdomain audit[4668]: CRED_DISP pid=4668 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:41:39 localhost.localdomain sudo[4970]: shakle17 : TTY=pts/0 ; PWD=/home/shakle17/shakle/projects/slavic-mythology ; USER=root ; COMMAND=/bin/postgresql-setup upgrade
+Apr 14 17:41:39 localhost.localdomain sudo[4970]: pam_systemd(sudo:session): Cannot create session: Already running in a session
+Apr 14 17:41:39 localhost.localdomain audit[4970]: USER_CMD pid=4970 uid=1000 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='cwd="/home/shakle17/shakle/projects/slavic-mythology" cmd=706F737467726573716C2D73657475702075706772616465 terminal=pts/0 res=success'
+Apr 14 17:41:39 localhost.localdomain sudo[4970]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 14 17:41:39 localhost.localdomain audit[4970]: CRED_REFR pid=4970 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:41:39 localhost.localdomain audit[4970]: USER_START pid=4970 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:41:39 localhost.localdomain sudo[4970]: pam_unix(sudo:session): session closed for user root
+Apr 14 17:41:39 localhost.localdomain audit[4970]: USER_END pid=4970 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:41:39 localhost.localdomain audit[4970]: CRED_DISP pid=4970 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:43:13 localhost.localdomain sudo[5014]: shakle17 : TTY=pts/0 ; PWD=/home/shakle17/shakle/projects/slavic-mythology ; USER=root ; COMMAND=/bin/systemctl start postgresql.service
+Apr 14 17:43:13 localhost.localdomain audit[5014]: USER_CMD pid=5014 uid=1000 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='cwd="/home/shakle17/shakle/projects/slavic-mythology" cmd=73797374656D63746C20737461727420706F737467726573716C2E73657276696365 terminal=pts/0 res=success'
+Apr 14 17:43:13 localhost.localdomain audit[5014]: CRED_REFR pid=5014 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:43:13 localhost.localdomain systemd[1]: Starting Cleanup of Temporary Directories...
+-- Subject: Unit systemd-tmpfiles-clean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-clean.service has begun starting up.
+Apr 14 17:43:13 localhost.localdomain sudo[5014]: pam_systemd(sudo:session): Cannot create session: Already running in a session
+Apr 14 17:43:13 localhost.localdomain sudo[5014]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 14 17:43:13 localhost.localdomain audit[5014]: USER_START pid=5014 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:43:13 localhost.localdomain polkitd[956]: Registered Authentication Agent for unix-process:5017:92552 (system bus name :1.105 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 14 17:43:13 localhost.localdomain systemd[1]: Starting PostgreSQL database server...
+-- Subject: Unit postgresql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit postgresql.service has begun starting up.
+Apr 14 17:43:13 localhost.localdomain postgresql-ctl[5028]: FATAL:  data directory "/var/lib/pgsql/data" has group or world access
+Apr 14 17:43:13 localhost.localdomain postgresql-ctl[5028]: DETAIL:  Permissions should be u=rwx (0700).
+Apr 14 17:43:14 localhost.localdomain systemd[1]: Started Cleanup of Temporary Directories.
+-- Subject: Unit systemd-tmpfiles-clean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-clean.service has finished starting up.
+-- 
+-- The start-up result is done.
+Apr 14 17:43:14 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-tmpfiles-clean comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Apr 14 17:43:14 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-tmpfiles-clean comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Apr 14 17:43:14 localhost.localdomain postgresql-ctl[5028]: pg_ctl: could not start server
+Apr 14 17:43:14 localhost.localdomain postgresql-ctl[5028]: Examine the log output.
+Apr 14 17:43:14 localhost.localdomain systemd[1]: postgresql.service: Control process exited, code=exited status=1
+Apr 14 17:43:14 localhost.localdomain systemd[1]: Failed to start PostgreSQL database server.
+-- Subject: Unit postgresql.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit postgresql.service has failed.
+-- 
+-- The result is failed.
+Apr 14 17:43:14 localhost.localdomain systemd[1]: postgresql.service: Unit entered failed state.
+Apr 14 17:43:14 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=postgresql comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+Apr 14 17:43:14 localhost.localdomain systemd[1]: postgresql.service: Failed with result 'exit-code'.
+Apr 14 17:43:14 localhost.localdomain sudo[5014]: pam_unix(sudo:session): session closed for user root
+Apr 14 17:43:14 localhost.localdomain polkitd[956]: Unregistered Authentication Agent for unix-process:5017:92552 (system bus name :1.105, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 14 17:43:14 localhost.localdomain audit[5014]: USER_END pid=5014 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:43:14 localhost.localdomain audit[5014]: CRED_DISP pid=5014 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:44:08 localhost.localdomain sudo[5329]: shakle17 : TTY=pts/0 ; PWD=/home/shakle17/shakle/projects/slavic-mythology ; USER=root ; COMMAND=/bin/systemctl start postgresql.service
+Apr 14 17:44:08 localhost.localdomain audit[5329]: USER_CMD pid=5329 uid=1000 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='cwd="/home/shakle17/shakle/projects/slavic-mythology" cmd=73797374656D63746C20737461727420706F737467726573716C2E73657276696365 terminal=pts/0 res=success'
+Apr 14 17:44:08 localhost.localdomain audit[5329]: CRED_REFR pid=5329 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:44:08 localhost.localdomain sudo[5329]: pam_systemd(sudo:session): Cannot create session: Already running in a session
+Apr 14 17:44:08 localhost.localdomain sudo[5329]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 14 17:44:08 localhost.localdomain audit[5329]: USER_START pid=5329 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:44:08 localhost.localdomain polkitd[956]: Registered Authentication Agent for unix-process:5330:98021 (system bus name :1.107 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 14 17:44:08 localhost.localdomain systemd[1]: Starting PostgreSQL database server...
+-- Subject: Unit postgresql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit postgresql.service has begun starting up.
+Apr 14 17:44:08 localhost.localdomain postgresql-ctl[5343]: FATAL:  data directory "/var/lib/pgsql/data" has group or world access
+Apr 14 17:44:08 localhost.localdomain postgresql-ctl[5343]: DETAIL:  Permissions should be u=rwx (0700).
+Apr 14 17:44:09 localhost.localdomain postgresql-ctl[5343]: pg_ctl: could not start server
+Apr 14 17:44:09 localhost.localdomain postgresql-ctl[5343]: Examine the log output.
+Apr 14 17:44:09 localhost.localdomain systemd[1]: postgresql.service: Control process exited, code=exited status=1
+Apr 14 17:44:09 localhost.localdomain systemd[1]: Failed to start PostgreSQL database server.
+-- Subject: Unit postgresql.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit postgresql.service has failed.
+-- 
+-- The result is failed.
+Apr 14 17:44:09 localhost.localdomain systemd[1]: postgresql.service: Unit entered failed state.
+Apr 14 17:44:09 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=postgresql comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+Apr 14 17:44:09 localhost.localdomain systemd[1]: postgresql.service: Failed with result 'exit-code'.
+Apr 14 17:44:09 localhost.localdomain sudo[5329]: pam_unix(sudo:session): session closed for user root
+Apr 14 17:44:09 localhost.localdomain audit[5329]: USER_END pid=5329 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:44:09 localhost.localdomain polkitd[956]: Unregistered Authentication Agent for unix-process:5330:98021 (system bus name :1.107, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 14 17:44:09 localhost.localdomain audit[5329]: CRED_DISP pid=5329 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:44:35 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.gnome.ControlCenter.SearchProvider'
+Apr 14 17:44:35 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.gnome.Boxes.SearchProvider'
+Apr 14 17:44:35 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.gnome.Calculator.SearchProvider'
+Apr 14 17:44:35 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.gnome.clocks'
+Apr 14 17:44:35 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.gnome.Contacts.SearchProvider'
+Apr 14 17:44:35 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.gnome.Documents'
+Apr 14 17:44:35 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.gnome.Nautilus'
+Apr 14 17:44:35 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.gnome.Bijiben.SearchProvider'
+Apr 14 17:44:35 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.gnome.seahorse.Application'
+Apr 14 17:44:35 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.gnome.Boxes.SearchProvider'
+Apr 14 17:44:35 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.gnome.ControlCenter.SearchProvider'
+Apr 14 17:44:35 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.gnome.Calculator.SearchProvider'
+Apr 14 17:44:35 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.gnome.gedit'
+Apr 14 17:44:35 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.gnome.clocks'
+Apr 14 17:44:35 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.gnome.Nautilus'
+Apr 14 17:44:35 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.gnome.seahorse.Application'
+Apr 14 17:44:35 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.gnome.Bijiben.SearchProvider'
+Apr 14 17:44:35 localhost.localdomain org.gnome.Bijiben.SearchProvider[1910]: Unable to load location /home/shakle17/.local/share/bijiben: No such file or directory
+Apr 14 17:44:35 localhost.localdomain org.gnome.Bijiben.SearchProvider[1910]: (bijiben-shell-search-provider:5612): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Apr 14 17:44:35 localhost.localdomain org.gnome.Bijiben.SearchProvider[1910]: (bijiben-shell-search-provider:5612): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Apr 14 17:44:35 localhost.localdomain org.gnome.Bijiben.SearchProvider[1910]: sending the mass change
+Apr 14 17:44:36 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.gnome.Contacts.SearchProvider'
+Apr 14 17:44:36 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.gnome.gedit'
+Apr 14 17:44:36 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.gnome.Documents'
+Apr 14 17:44:36 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.bluez.obex'
+Apr 14 17:44:37 localhost.localdomain obexd[5697]: OBEX daemon 5.36
+Apr 14 17:44:37 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.bluez.obex'
+Apr 14 17:44:45 localhost.localdomain PackageKit[1468]: resolve transaction /907_dedbadcd from uid 1000 finished with success after 6621ms
+Apr 14 17:45:16 localhost.localdomain sudo[5751]: shakle17 : TTY=pts/0 ; PWD=/home/shakle17/shakle/projects/slavic-mythology ; USER=root ; COMMAND=/bin/dnf install systemd-devel
+Apr 14 17:45:16 localhost.localdomain audit[5751]: USER_CMD pid=5751 uid=1000 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='cwd="/home/shakle17/shakle/projects/slavic-mythology" cmd=646E6620696E7374616C6C2073797374656D642D646576656C terminal=pts/0 res=success'
+Apr 14 17:45:16 localhost.localdomain audit[5751]: CRED_REFR pid=5751 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:45:16 localhost.localdomain sudo[5751]: pam_systemd(sudo:session): Cannot create session: Already running in a session
+Apr 14 17:45:16 localhost.localdomain sudo[5751]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 14 17:45:16 localhost.localdomain audit[5751]: USER_START pid=5751 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:45:43 localhost.localdomain sudo[5751]: pam_unix(sudo:session): session closed for user root
+Apr 14 17:45:43 localhost.localdomain audit[5751]: USER_END pid=5751 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:45:43 localhost.localdomain audit[5751]: CRED_DISP pid=5751 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:45:44 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Activating service name='org.gtk.vfs.Metadata'
+Apr 14 17:45:44 localhost.localdomain /usr/libexec/gdm-x-session[1800]: Successfully activated service 'org.gtk.vfs.Metadata'
+Apr 14 17:45:46 localhost.localdomain sudo[7133]: shakle17 : TTY=pts/0 ; PWD=/home/shakle17/shakle/projects/slavic-mythology ; USER=root ; COMMAND=/bin/systemctl start postgresql.service
+Apr 14 17:45:46 localhost.localdomain audit[7133]: USER_CMD pid=7133 uid=1000 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='cwd="/home/shakle17/shakle/projects/slavic-mythology" cmd=73797374656D63746C20737461727420706F737467726573716C2E73657276696365 terminal=pts/0 res=success'
+Apr 14 17:45:46 localhost.localdomain audit[7133]: CRED_REFR pid=7133 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:45:46 localhost.localdomain sudo[7133]: pam_systemd(sudo:session): Cannot create session: Already running in a session
+Apr 14 17:45:46 localhost.localdomain sudo[7133]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 14 17:45:46 localhost.localdomain audit[7133]: USER_START pid=7133 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:45:46 localhost.localdomain polkitd[956]: Registered Authentication Agent for unix-process:7134:107814 (system bus name :1.115 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 14 17:45:46 localhost.localdomain systemd[1]: Starting PostgreSQL database server...
+-- Subject: Unit postgresql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit postgresql.service has begun starting up.
+Apr 14 17:45:46 localhost.localdomain postgresql-ctl[7148]: FATAL:  data directory "/var/lib/pgsql/data" has group or world access
+Apr 14 17:45:46 localhost.localdomain postgresql-ctl[7148]: DETAIL:  Permissions should be u=rwx (0700).
+Apr 14 17:45:47 localhost.localdomain postgresql-ctl[7148]: pg_ctl: could not start server
+Apr 14 17:45:47 localhost.localdomain postgresql-ctl[7148]: Examine the log output.
+Apr 14 17:45:47 localhost.localdomain systemd[1]: postgresql.service: Control process exited, code=exited status=1
+Apr 14 17:45:47 localhost.localdomain systemd[1]: Failed to start PostgreSQL database server.
+-- Subject: Unit postgresql.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit postgresql.service has failed.
+-- 
+-- The result is failed.
+Apr 14 17:45:47 localhost.localdomain systemd[1]: postgresql.service: Unit entered failed state.
+Apr 14 17:45:47 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=postgresql comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+Apr 14 17:45:47 localhost.localdomain systemd[1]: postgresql.service: Failed with result 'exit-code'.
+Apr 14 17:45:47 localhost.localdomain sudo[7133]: pam_unix(sudo:session): session closed for user root
+Apr 14 17:45:47 localhost.localdomain audit[7133]: USER_END pid=7133 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:45:47 localhost.localdomain polkitd[956]: Unregistered Authentication Agent for unix-process:7134:107814 (system bus name :1.115, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr 14 17:45:47 localhost.localdomain audit[7133]: CRED_DISP pid=7133 uid=0 auid=1000 ses=1 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:setcred grantors=pam_env,pam_fprintd acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: USB low-level info:
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: bcdUSB: 512
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: bDeviceClass: 0
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: bDeviceSubClass: 0
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: bDeviceProtocol: 1
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: idVendor: 04e8
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: idProduct: 6860
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: IN endpoint maxpacket: 512 bytes
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: OUT endpoint maxpacket: 512 bytes
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: Raw device info:
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: Bus location: 1
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: Device number: 5
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: Device entry info:
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: Vendor: Samsung
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: Vendor id: 0x04e8
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: Product: Galaxy models (MTP)
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: Vendor id: 0x6860
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: Device flags: 0x49000207
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: Configuration 0, interface 0, altsetting 0:
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: Interface description contains the string "MTP"
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: Device recognized as MTP, no further probing.
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: Device info:
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: Manufacturer: Samsung Electronics Co., Ltd.
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: Model: SM-G361F
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: Device version: G361FXXU1AOJ1
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: Serial number: RV8GB2XT5CP
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: Vendor extension ID: 0x00000006
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: Vendor extension description: microsoft.com: 1.0; microsoft.com/WMPPD: 11.0; microsoft.com/WMPPD: 10.0;samsung.com/kies:2.1;samsung.com/sidesync3.1;
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: Detected object size: 64 bits
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: Extensions:
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: microsoft.com: 1.0
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: microsoft.com/WMPPD: 11.0
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: microsoft.com/WMPPD: 10.0
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: samsung.com/kies: 2.1
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: Supported operations:
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 1001: get device info
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 1002: Open session
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 1003: Close session
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 1004: Get storage IDs
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 1005: Get storage info
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 1006: Get number of objects
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 1007: Get object handles
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 1008: Get object info
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 1009: Get object
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 100b: Delete object
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 100c: Send object info
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 100d: Send object
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 1014: Get device property description
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 1015: Get device property value
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 1016: Set device property value
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 101b: Get partial object
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 9810: Get object references
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 9811: Set object references
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 9802: Get object property description
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 9801: Get object properties supported
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 9803: Get object property value
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 9804: Set object property value
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 9805: Get object property list
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 9806: Set object property list
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 9201: Report Added/Deleted Items
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 9202: Report Acquired Items
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 100a: Get thumbnail
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 1011: Self test device
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 1012: Set object protection
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 1017: Reset device property value
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 1019: Move object
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 101a: Copy object
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 9807: Get interdependent property description
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 9808: Send object property list
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 9501: Unknown (9501)
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 9502: Unknown (9502)
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 9503: Unknown (9503)
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 9504: Unknown (9504)
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: Events supported:
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 0x4002
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 0x4003
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 0x4004
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 0x4005
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 0x400c
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: Device Properties Supported:
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 0x5001: Battery Level
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 0xd401: Synchronization Partner
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 0xd402: Friendly Device Name
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 0xd404: Unknown property
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 0xd407: Perceived Device Type
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: Playable File (Object) Types and Object Properties Supported:
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: b984: 3GP
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc01: Storage ID UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc02: Object Format UINT16 data type ANY 16BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc03: Protection Status UINT16 data type enumeration: 0, 1, 32770, 32771,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc04: Object Size UINT64 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc07: Object File Name STRING data type REGULAR EXPRESSION FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc0b: Parent Object UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc41: Persistant Unique Object Identifier UINT128 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc4f: Non Consumable UINT8 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc09: Date Modified STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc44: Name STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc05: Association Type UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc08: Date Created STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9d: DRM Status UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc87: Width UINT32 data type range: MIN 0, MAX 4000, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc88: Height UINT32 data type range: MIN 0, MAX 3000, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc8c: Genre STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc91: Use Count UINT32 data type ANY 32BIT VALUE form GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc99: Original Release Date STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de93: Sample Rate UINT32 data type range: MIN 8000, MAX 48000, STEP 50 READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de94: Number Of Channels UINT16 data type enumeration: 0, 1, 2,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de97: Scan Depth UINT16 data type enumeration: 0, 1, 2, 3, 6, 7,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de99: Audio WAVE Codec UINT32 data type enumeration: 0, 85, 352, 353,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9a: Audio Bit Rate UINT32 data type range: MIN 13000, MAX 192999, STEP 1 READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9b: Video Four CC Codec UINT32 data type enumeration: 0, 861293911,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9c: Video Bit Rate UINT32 data type range: MIN 32000, MAX 10485760, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9d: Frames Per Thousand Seconds UINT32 data type enumeration: 0, 15000, 24000, 25000, 29970, 30000,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9e: Key Frame Distance UINT32 data type range: MIN 100, MAX 300, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dea1: Encoding Profile STRING data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc89: Duration UINT32 data type range: MIN 0, MAX -1, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc47: Date Authored STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 3009: MP3
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc01: Storage ID UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc02: Object Format UINT16 data type ANY 16BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc03: Protection Status UINT16 data type enumeration: 0, 1, 32770, 32771,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc04: Object Size UINT64 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc07: Object File Name STRING data type REGULAR EXPRESSION FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc0b: Parent Object UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc41: Persistant Unique Object Identifier UINT128 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc4f: Non Consumable UINT8 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc09: Date Modified STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc44: Name STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc05: Association Type UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc08: Date Created STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9d: DRM Status UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc46: Artist STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc89: Duration UINT32 data type range: MIN 0, MAX -1, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc8a: Rating UINT16 data type range: MIN 0, MAX 100, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc8b: Track UINT16 data type ANY 16BIT VALUE form GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc8c: Genre STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc97: Effective Rating UINT16 data type range: MIN 0, MAX 100, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc99: Original Release Date STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9a: Album Name STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de93: Sample Rate UINT32 data type range: MIN 8000, MAX 48000, STEP 50 READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de94: Number Of Channels UINT16 data type enumeration: 0, 1, 2,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de99: Audio WAVE Codec UINT32 data type enumeration: 0, 1, 2, 3, 8, 9, 11, 49, 50, 80, 85, 352, 353, 354, 355, 356, 41222,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9a: Audio Bit Rate UINT32 data type range: MIN 13000, MAX 384000, STEP 1 READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc91: Use Count UINT32 data type ANY 32BIT VALUE form GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de92: Bit Rate Type UINT16 data type enumeration: 0, 1, 2, 3,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9b: Album Artist STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc96: Composer STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: b901: WMA
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc01: Storage ID UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc02: Object Format UINT16 data type ANY 16BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc03: Protection Status UINT16 data type enumeration: 0, 1, 32770, 32771,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc04: Object Size UINT64 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc07: Object File Name STRING data type REGULAR EXPRESSION FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc0b: Parent Object UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc41: Persistant Unique Object Identifier UINT128 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc4f: Non Consumable UINT8 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc09: Date Modified STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc44: Name STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc05: Association Type UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc08: Date Created STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9d: DRM Status UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc46: Artist STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc89: Duration UINT32 data type range: MIN 0, MAX -1, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc8a: Rating UINT16 data type range: MIN 0, MAX 100, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc8b: Track UINT16 data type ANY 16BIT VALUE form GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc8c: Genre STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc97: Effective Rating UINT16 data type range: MIN 0, MAX 100, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc99: Original Release Date STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9a: Album Name STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de93: Sample Rate UINT32 data type range: MIN 8000, MAX 48000, STEP 50 READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de94: Number Of Channels UINT16 data type enumeration: 0, 1, 2,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de99: Audio WAVE Codec UINT32 data type enumeration: 0, 1, 2, 3, 8, 9, 11, 49, 50, 80, 85, 352, 353, 354, 355, 356, 41222,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9a: Audio Bit Rate UINT32 data type range: MIN 13000, MAX 384000, STEP 1 READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc91: Use Count UINT32 data type ANY 32BIT VALUE form GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de92: Bit Rate Type UINT16 data type enumeration: 0, 1, 2, 3,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9b: Album Artist STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc96: Composer STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: b981: WMV
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc01: Storage ID UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc02: Object Format UINT16 data type ANY 16BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc03: Protection Status UINT16 data type enumeration: 0, 1, 32770, 32771,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc04: Object Size UINT64 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc07: Object File Name STRING data type REGULAR EXPRESSION FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc0b: Parent Object UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc41: Persistant Unique Object Identifier UINT128 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc4f: Non Consumable UINT8 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc09: Date Modified STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc44: Name STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc05: Association Type UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc08: Date Created STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9d: DRM Status UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc87: Width UINT32 data type range: MIN 0, MAX 4000, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc88: Height UINT32 data type range: MIN 0, MAX 3000, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc8c: Genre STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc91: Use Count UINT32 data type ANY 32BIT VALUE form GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc99: Original Release Date STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de93: Sample Rate UINT32 data type range: MIN 8000, MAX 48000, STEP 50 READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de94: Number Of Channels UINT16 data type enumeration: 0, 1, 2,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de97: Scan Depth UINT16 data type enumeration: 0, 1, 2, 3, 6, 7,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de99: Audio WAVE Codec UINT32 data type enumeration: 0, 85, 352, 353,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9a: Audio Bit Rate UINT32 data type range: MIN 13000, MAX 192999, STEP 1 READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9b: Video Four CC Codec UINT32 data type enumeration: 0, 861293911,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9c: Video Bit Rate UINT32 data type range: MIN 32000, MAX 10485760, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9d: Frames Per Thousand Seconds UINT32 data type enumeration: 0, 15000, 24000, 25000, 29970, 30000,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9e: Key Frame Distance UINT32 data type range: MIN 100, MAX 300, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dea1: Encoding Profile STRING data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc89: Duration UINT32 data type range: MIN 0, MAX -1, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc47: Date Authored STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 3801: JPEG
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc01: Storage ID UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc02: Object Format UINT16 data type ANY 16BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc03: Protection Status UINT16 data type enumeration: 0, 1, 32770, 32771,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc04: Object Size UINT64 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc07: Object File Name STRING data type REGULAR EXPRESSION FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc0b: Parent Object UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc41: Persistant Unique Object Identifier UINT128 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc4f: Non Consumable UINT8 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc09: Date Modified STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc44: Name STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc05: Association Type UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc08: Date Created STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9d: DRM Status UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9b: Album Artist STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc87: Width UINT32 data type range: MIN 0, MAX 30000, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc88: Height UINT32 data type range: MIN 0, MAX 30000, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: d901: Buy flag UINT8 data type range: MIN 0, MAX 1, STEP 0 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc47: Date Authored STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 3001: Association/Directory
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc01: Storage ID UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc02: Object Format UINT16 data type ANY 16BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc03: Protection Status UINT16 data type enumeration: 0, 1, 32770, 32771,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc04: Object Size UINT64 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc07: Object File Name STRING data type REGULAR EXPRESSION FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc0b: Parent Object UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc41: Persistant Unique Object Identifier UINT128 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc4f: Non Consumable UINT8 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc09: Date Modified STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc44: Name STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc05: Association Type UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc08: Date Created STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9d: DRM Status UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: ba05: Abstract Audio Video Playlist
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc01: Storage ID UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc02: Object Format UINT16 data type ANY 16BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc03: Protection Status UINT16 data type enumeration: 0, 1, 32770, 32771,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc04: Object Size UINT64 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc07: Object File Name STRING data type REGULAR EXPRESSION FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc0b: Parent Object UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc41: Persistant Unique Object Identifier UINT128 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc4f: Non Consumable UINT8 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc09: Date Modified STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc44: Name STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc05: Association Type UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc08: Date Created STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9d: DRM Status UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 3000: Undefined Type
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc01: Storage ID UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc02: Object Format UINT16 data type ANY 16BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc03: Protection Status UINT16 data type enumeration: 0, 1, 32770, 32771,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc04: Object Size UINT64 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc07: Object File Name STRING data type REGULAR EXPRESSION FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc0b: Parent Object UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc41: Persistant Unique Object Identifier UINT128 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc4f: Non Consumable UINT8 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc09: Date Modified STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc44: Name STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc05: Association Type UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc08: Date Created STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9d: DRM Status UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 3807: GIF
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc01: Storage ID UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc02: Object Format UINT16 data type ANY 16BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc03: Protection Status UINT16 data type enumeration: 0, 1, 32770, 32771,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc04: Object Size UINT64 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc07: Object File Name STRING data type REGULAR EXPRESSION FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc0b: Parent Object UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc41: Persistant Unique Object Identifier UINT128 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc4f: Non Consumable UINT8 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc09: Date Modified STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc44: Name STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc05: Association Type UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc08: Date Created STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9d: DRM Status UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9b: Album Artist STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc87: Width UINT32 data type range: MIN 0, MAX 30000, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc88: Height UINT32 data type range: MIN 0, MAX 30000, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: d901: Buy flag UINT8 data type range: MIN 0, MAX 1, STEP 0 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc47: Date Authored STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 3804: BMP
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc01: Storage ID UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc02: Object Format UINT16 data type ANY 16BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc03: Protection Status UINT16 data type enumeration: 0, 1, 32770, 32771,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc04: Object Size UINT64 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc07: Object File Name STRING data type REGULAR EXPRESSION FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc0b: Parent Object UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc41: Persistant Unique Object Identifier UINT128 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc4f: Non Consumable UINT8 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc09: Date Modified STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc44: Name STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc05: Association Type UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc08: Date Created STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9d: DRM Status UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9b: Album Artist STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc87: Width UINT32 data type range: MIN 0, MAX 30000, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc88: Height UINT32 data type range: MIN 0, MAX 30000, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: d901: Buy flag UINT8 data type range: MIN 0, MAX 1, STEP 0 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc47: Date Authored STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 380b: PNG
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc01: Storage ID UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc02: Object Format UINT16 data type ANY 16BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc03: Protection Status UINT16 data type enumeration: 0, 1, 32770, 32771,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc04: Object Size UINT64 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc07: Object File Name STRING data type REGULAR EXPRESSION FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc0b: Parent Object UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc41: Persistant Unique Object Identifier UINT128 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc4f: Non Consumable UINT8 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc09: Date Modified STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc44: Name STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc05: Association Type UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc08: Date Created STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9d: DRM Status UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9b: Album Artist STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc87: Width UINT32 data type range: MIN 0, MAX 30000, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc88: Height UINT32 data type range: MIN 0, MAX 30000, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: d901: Buy flag UINT8 data type range: MIN 0, MAX 1, STEP 0 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc47: Date Authored STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 300a: MS AVI
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc01: Storage ID UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc02: Object Format UINT16 data type ANY 16BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc03: Protection Status UINT16 data type enumeration: 0, 1, 32770, 32771,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc04: Object Size UINT64 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc07: Object File Name STRING data type REGULAR EXPRESSION FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc0b: Parent Object UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc41: Persistant Unique Object Identifier UINT128 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc4f: Non Consumable UINT8 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc09: Date Modified STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc44: Name STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc05: Association Type UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc08: Date Created STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9d: DRM Status UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc87: Width UINT32 data type range: MIN 0, MAX 4000, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc88: Height UINT32 data type range: MIN 0, MAX 3000, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc8c: Genre STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc91: Use Count UINT32 data type ANY 32BIT VALUE form GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc99: Original Release Date STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de93: Sample Rate UINT32 data type range: MIN 8000, MAX 48000, STEP 50 READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de94: Number Of Channels UINT16 data type enumeration: 0, 1, 2,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de97: Scan Depth UINT16 data type enumeration: 0, 1, 2, 3, 6, 7,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de99: Audio WAVE Codec UINT32 data type enumeration: 0, 85, 352, 353,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9a: Audio Bit Rate UINT32 data type range: MIN 13000, MAX 192999, STEP 1 READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9b: Video Four CC Codec UINT32 data type enumeration: 0, 861293911,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9c: Video Bit Rate UINT32 data type range: MIN 32000, MAX 10485760, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9d: Frames Per Thousand Seconds UINT32 data type enumeration: 0, 15000, 24000, 25000, 29970, 30000,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9e: Key Frame Distance UINT32 data type range: MIN 100, MAX 300, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dea1: Encoding Profile STRING data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc89: Duration UINT32 data type range: MIN 0, MAX -1, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc47: Date Authored STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 300b: MPEG
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc01: Storage ID UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc02: Object Format UINT16 data type ANY 16BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc03: Protection Status UINT16 data type enumeration: 0, 1, 32770, 32771,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc04: Object Size UINT64 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc07: Object File Name STRING data type REGULAR EXPRESSION FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc0b: Parent Object UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc41: Persistant Unique Object Identifier UINT128 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc4f: Non Consumable UINT8 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc09: Date Modified STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc44: Name STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc05: Association Type UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc08: Date Created STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9d: DRM Status UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc87: Width UINT32 data type range: MIN 0, MAX 4000, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc88: Height UINT32 data type range: MIN 0, MAX 3000, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc8c: Genre STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc91: Use Count UINT32 data type ANY 32BIT VALUE form GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc99: Original Release Date STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de93: Sample Rate UINT32 data type range: MIN 8000, MAX 48000, STEP 50 READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de94: Number Of Channels UINT16 data type enumeration: 0, 1, 2,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de97: Scan Depth UINT16 data type enumeration: 0, 1, 2, 3, 6, 7,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de99: Audio WAVE Codec UINT32 data type enumeration: 0, 85, 352, 353,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9a: Audio Bit Rate UINT32 data type range: MIN 13000, MAX 192999, STEP 1 READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9b: Video Four CC Codec UINT32 data type enumeration: 0, 861293911,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9c: Video Bit Rate UINT32 data type range: MIN 32000, MAX 10485760, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9d: Frames Per Thousand Seconds UINT32 data type enumeration: 0, 15000, 24000, 25000, 29970, 30000,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9e: Key Frame Distance UINT32 data type range: MIN 100, MAX 300, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dea1: Encoding Profile STRING data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc89: Duration UINT32 data type range: MIN 0, MAX -1, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc47: Date Authored STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 300c: ASF
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc01: Storage ID UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc02: Object Format UINT16 data type ANY 16BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc03: Protection Status UINT16 data type enumeration: 0, 1, 32770, 32771,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc04: Object Size UINT64 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc07: Object File Name STRING data type REGULAR EXPRESSION FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc0b: Parent Object UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc41: Persistant Unique Object Identifier UINT128 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc4f: Non Consumable UINT8 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc09: Date Modified STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc44: Name STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc05: Association Type UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc08: Date Created STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9d: DRM Status UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc87: Width UINT32 data type range: MIN 0, MAX 4000, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc88: Height UINT32 data type range: MIN 0, MAX 3000, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc8c: Genre STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc91: Use Count UINT32 data type ANY 32BIT VALUE form GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc99: Original Release Date STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de93: Sample Rate UINT32 data type range: MIN 8000, MAX 48000, STEP 50 READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de94: Number Of Channels UINT16 data type enumeration: 0, 1, 2,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de97: Scan Depth UINT16 data type enumeration: 0, 1, 2, 3, 6, 7,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de99: Audio WAVE Codec UINT32 data type enumeration: 0, 85, 352, 353,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9a: Audio Bit Rate UINT32 data type range: MIN 13000, MAX 192999, STEP 1 READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9b: Video Four CC Codec UINT32 data type enumeration: 0, 861293911,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9c: Video Bit Rate UINT32 data type range: MIN 32000, MAX 10485760, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9d: Frames Per Thousand Seconds UINT32 data type enumeration: 0, 15000, 24000, 25000, 29970, 30000,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9e: Key Frame Distance UINT32 data type range: MIN 100, MAX 300, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dea1: Encoding Profile STRING data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc89: Duration UINT32 data type range: MIN 0, MAX -1, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc47: Date Authored STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: b982: MP4
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc01: Storage ID UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc02: Object Format UINT16 data type ANY 16BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc03: Protection Status UINT16 data type enumeration: 0, 1, 32770, 32771,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc04: Object Size UINT64 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc07: Object File Name STRING data type REGULAR EXPRESSION FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc0b: Parent Object UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc41: Persistant Unique Object Identifier UINT128 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc4f: Non Consumable UINT8 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc09: Date Modified STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc44: Name STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc05: Association Type UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc08: Date Created STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9d: DRM Status UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc87: Width UINT32 data type range: MIN 0, MAX 4000, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc88: Height UINT32 data type range: MIN 0, MAX 3000, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc8c: Genre STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc91: Use Count UINT32 data type ANY 32BIT VALUE form GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc99: Original Release Date STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de93: Sample Rate UINT32 data type range: MIN 8000, MAX 48000, STEP 50 READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de94: Number Of Channels UINT16 data type enumeration: 0, 1, 2,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de97: Scan Depth UINT16 data type enumeration: 0, 1, 2, 3, 6, 7,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de99: Audio WAVE Codec UINT32 data type enumeration: 0, 85, 352, 353,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9a: Audio Bit Rate UINT32 data type range: MIN 13000, MAX 192999, STEP 1 READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9b: Video Four CC Codec UINT32 data type enumeration: 0, 861293911,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9c: Video Bit Rate UINT32 data type range: MIN 32000, MAX 10485760, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9d: Frames Per Thousand Seconds UINT32 data type enumeration: 0, 15000, 24000, 25000, 29970, 30000,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: de9e: Key Frame Distance UINT32 data type range: MIN 100, MAX 300, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dea1: Encoding Profile STRING data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc89: Duration UINT32 data type range: MIN 0, MAX -1, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc47: Date Authored STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: 3800: Defined Type
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc01: Storage ID UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc02: Object Format UINT16 data type ANY 16BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc03: Protection Status UINT16 data type enumeration: 0, 1, 32770, 32771,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc04: Object Size UINT64 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc07: Object File Name STRING data type REGULAR EXPRESSION FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc0b: Parent Object UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc41: Persistant Unique Object Identifier UINT128 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc4f: Non Consumable UINT8 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc09: Date Modified STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc44: Name STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc05: Association Type UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc08: Date Created STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9d: DRM Status UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: b980: Undefined Video
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc01: Storage ID UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc02: Object Format UINT16 data type ANY 16BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc03: Protection Status UINT16 data type enumeration: 0, 1, 32770, 32771,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc04: Object Size UINT64 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc07: Object File Name STRING data type REGULAR EXPRESSION FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc0b: Parent Object UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc41: Persistant Unique Object Identifier UINT128 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc4f: Non Consumable UINT8 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc09: Date Modified STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc44: Name STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc05: Association Type UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc08: Date Created STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9d: DRM Status UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: ba10: WPL Playlist
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc01: Storage ID UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc02: Object Format UINT16 data type ANY 16BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc03: Protection Status UINT16 data type enumeration: 0, 1, 32770, 32771,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc04: Object Size UINT64 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc07: Object File Name STRING data type REGULAR EXPRESSION FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc0b: Parent Object UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc41: Persistant Unique Object Identifier UINT128 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc4f: Non Consumable UINT8 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc09: Date Modified STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc44: Name STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc05: Association Type UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc08: Date Created STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9d: DRM Status UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: ba11: M3U Playlist
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc01: Storage ID UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc02: Object Format UINT16 data type ANY 16BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc03: Protection Status UINT16 data type enumeration: 0, 1, 32770, 32771,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc04: Object Size UINT64 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc07: Object File Name STRING data type REGULAR EXPRESSION FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc0b: Parent Object UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc41: Persistant Unique Object Identifier UINT128 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc4f: Non Consumable UINT8 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc09: Date Modified STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc44: Name STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc05: Association Type UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc08: Date Created STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9d: DRM Status UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: ba03: Abstract Audio Album
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc01: Storage ID UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc02: Object Format UINT16 data type ANY 16BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc03: Protection Status UINT16 data type enumeration: 0, 1, 32770, 32771,  READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc04: Object Size UINT64 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc07: Object File Name STRING data type REGULAR EXPRESSION FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc0b: Parent Object UINT32 data type ANY 32BIT VALUE form READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc41: Persistant Unique Object Identifier UINT128 data type READ ONLY
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc4f: Non Consumable UINT8 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc09: Date Modified STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc44: Name STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc05: Association Type UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc08: Date Created STRING data type DATETIME FORM GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9d: DRM Status UINT16 data type enumeration: 0, 1,  GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc9b: Album Artist STRING data type GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc87: Width UINT32 data type range: MIN 0, MAX 30000, STEP 1 GET/SET
+Apr 14 17:46:02 localhost.localdomain org.gtk.vfs.Daemon[1910]: dc88: Height UINT32 data type range: MIN 0, MAX 30000, STEP 1 GET/SET
