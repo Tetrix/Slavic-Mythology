@@ -1,0 +1,27 @@
+{% extends 'home/base.html' %}
+
+{% block content %}
+	<form id="write_story" method="post" action="" enctype="multipart/form-data">
+ 
+        {% csrf_token %}
+        
+        <div>
+        	<center>
+        		<input type="text" style="width:600px; height:40px;" name="title" placeholder="Title"/>
+        	</center>
+    	</div>
+    	<br>
+    	<div>
+        	<center>
+        		<textarea style="width:600px; height:400px;" name="textarea" placeholder="Write your story here"></textarea>
+        	</center>
+    	</div>
+    	<br>
+    	<div>
+    		<center>
+				<input type="submit" style="width:600px; height:50px;" name="submit" value="Post" />
+			</center>
+		</div>	
+
+        </form>
+{% endblock %}

@@ -6,107 +6,51 @@
     <meta charset="utf-8" />
     {% load staticfiles %}
     
-    <link rel="stylesheet" href="{% static 'home/css/bootstrap.min.css' %}" type = "text/css"/>
+    <link rel="stylesheet" href="{% static 'home/css/base_style.css' %}" type = "text/css"/>
     <meta name="viewport" content = "width=device-width, initial-scale=1.0">
    
-
-
 </head>
 
-<style type="text/css">
-    #header_color{
-        background-color: #1A1818;
-    }
-
-    p,h3,h4 {
-        color: #000000;  
-    }
-
-img{
-
-    max-width:500px;
-    max-height:500px;
-}
-
-#register{
-    position: absolute;
-    top:5%;
-    left:85%;
-}
-
-#login{
-    position: absolute;
-    top:5%;
-    left:75%;
-}
-
-</style>
 
 
-
-<body class="body" style="background-color:#362A2A">
-    <div class="container-fluid">
-        <div class="row" id='header_color'>
-            <br>
-
-                <a href="/">
-                <img src="{% static 'home/img/veles.jpg' %}" class="responsive-img" style='max-height:100px;' alt="face">
-                </a>
-
-
-                <a href="profile/register/">
-                    Register
-                </a>
-
-                <a href="/profile/login/">Login</a>
-
-              
-
-              {% if user.is_authenticated %}
-              <a href="/profile/logout/">Logout</a>
-<h1>Rango says... hello {{ user.username }}!</h1>
-{% else %}
-<h1>Rango says... hello world!</h1>
-{% endif %}
+<body>
+    
+    <header>
                 
-
                 <center>
-                    <h1 style='color:black'>СЛОВЕНСКА МИТОЛОГИЈА</h1>
+                    <h1> SLAVIC MYTHOLOGY </h1>
                 </center>
-                    
-                <div id='header_color'>
                 
-                    <ul class="nav nav-pills">
-                        <li><a href='/'>Дома</a></li>
-                        <li><a href='/gods/'>Богови</a></li>
-                        <li><a href='/tales/'>Настани</a></li>
-                        <li><a href='/stories/'>Легенди и преданија</a></li>
+                <nav>
+                    <ul>
+                        
+                        <li><a href='/'>HOME </a></li> 
+                        <li><a href='/gods/'>‖  GODS AND CREATURES </a></li> 
+                        <li><a href='/tales/'>‖  TALES</a></li> 
+                        <li><a href='/stories/'>‖   LEGENDS AND TRADITIONS</a></li>
+                        <li>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</li>
+                        {% if user.is_authenticated %}
+                        <li><a  class="auth" href="/profile/logout" >Logout</a></li>
+                        <li><a  class="auth" href="/profile">‖     {{ user }}</a></li>
+                        {% else %}
+                        <li><a class="auth" href="/profile/register/">Register</a></li>
+                        <li><a class="auth"href="/profile/login/">‖     Login</a></li>      
+                        {% endif %}
+                    
                     </ul>
+                </nav>
+                
 
-                </div>
+            
+        </header>
 
-
-
-            <hr>
-        </div>
-
-        <div class="row">
-          <!-- <div class="col-sm-2"> -->
-          <br>
-
-          <br>
-           <!-- Great, til you resize. -->
-            <!--<div class="well bs-sidebar affix" id="sidebar" style="background-color:#fff">-->
-           
-          
-            <div class='container-fluid'>
-            <br><br>
+            </div>
                {% block content %}
                {% endblock %}   
             </div>
-          </div>
+          
         <!-- </div>  -->
-    </div>
+    
     
 </body>
 

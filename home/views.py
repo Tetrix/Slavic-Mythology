@@ -9,6 +9,9 @@ from django.contrib.auth.decorators import login_required
 def index(request):
 	return render(request, 'home/home.html')
 
+def profile(request):
+    return render(request, 'home/profile.html')    
+
 
 def register(request):
 
@@ -85,7 +88,6 @@ def user_login(request):
         # Use Django's machinery to attempt to see if the username/password
         # combination is valid - a User object is returned if it is.
         user = authenticate(username=username, password=password)
-        print("BRR")
         # If we have a User object, the details are correct.
         # If None (Python's way of representing the absence of a value), no user
         # with matching credentials was found.
@@ -100,12 +102,10 @@ def user_login(request):
                 return HttpResponseRedirect('/')
             else:
                 # An inactive account was used - no logging in!
-                return HttpResponse("Your Rango account is disabled.")
-                print("POE")
+                return HttpResponse("Your account is disabled.")
         else:
             # Bad login details were provided. So we can't log the user in.
             print ("Invalid login details: {0}, {1}".format(username, password))
-            print("POEe")
             return HttpResponse("Invalid login details supplied.")
 
     # The request is not a HTTP POST, so display the login form.
@@ -113,7 +113,6 @@ def user_login(request):
     else:
         # No context variables to pass to the template system, hence the
         # blank dictionary object...
-        print("POEee")
         return render(request, 'home/registration/login.html', {})
 
 

@@ -129,7 +129,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
-MEDIA_ROOT='/home/tetrix/Documents/django/slavic_mythology/home/media'
+MEDIA_ROOT=BASE_DIR+'/home/media'
 MEDIA_URL='/media/'
 
 
