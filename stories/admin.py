@@ -1,3 +1,5 @@
 from django.contrib import admin
+from stories.models import Legends_and_traditions
 
-# Register your models here.
+
+admin.site.register(Legends_and_traditions)

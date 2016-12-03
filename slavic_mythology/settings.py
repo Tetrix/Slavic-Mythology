@@ -85,7 +85,7 @@ DATABASES = {
         'USER': 'slav',
         'PASSWORD': 'slavicmythology',
         'HOST': 'localhost',
-        'PORT': '',
+        'PORT': '5432',
     }
 }
 
